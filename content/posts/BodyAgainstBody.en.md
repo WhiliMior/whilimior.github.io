@@ -1,0 +1,63 @@
+---
+title: Mysterious Feminism, A Hysterical Writing
+subtitle:
+date: 2023-12-05T17:47:41-04:00
+slug: 9ac6a2d
+draft: false
+author:
+  name: Shannon Li
+  link: 
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - Psychoanalysis
+categories:
+  - Prose
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+Irigaray, Luce. *Sexes and Genealogies*. 1993. pg9-21.
+
+---
+
+Very interesting article. The very act of the author questioning the legality of phallus is an act of patricide. The topic of contraception and abortion was a highly controversial subject in the United States of America in the 1980's and to this day. In China, however, abortion has not been a taboo since ancient times. The Han Book, written in 105 A.D., records the use of medication for abortion by the ancient Chinese.
+
+I have to admit that I have a hard time understanding why the political situation in the United States and the social ideology under the influence of Christianity is against abortion. But I was able to understand the article's linking of the power of phallus to the dilemmas faced by women, especially regarding the right to abortion. Even in ancient China, where abortion was allowed (and especially in the imperial palace where it would even be promoted), the position of women and the exploitation and oppression they suffered was there for all to see. The physical toll this all takes on women is undeniable.
+
+However, I am a Lacanian psychoanalyst, and as I read the article, I realized that the psychoanalytic approach mentioned in the article differed so much from the Lacanian school of thought that I had studied. For example, the article argues that most biological males possess the phallus, whereas in Lacan's theory, no one possesses the phallus, and that man or woman is simply the result of the discipline of the symbolic order, as Lacan said, "Woman does not exist”! Neither man nor woman can possess the phallus, so as the diagram below shows, man is blindly pursuing the constitutive exception of the primitive father (obsessive-compulsive), while woman has no desire to be the primitive father (hysterical). And a man is a man only because he wants to be a primitive father, which arguably has nothing to do with whether he has a biological penis or not. Even this position of male and female can be interchanged through dialectics.
+
+![Not All](https://www.lacanonline.com/wp-content/uploads/2013/09/not-all-not-one.png)
+
+I can cite this with the most classic storytelling strategy and the most failed art form: the movie. In Antigone, Antigone is a female character. Of course, if the author writes her female she has to be. But whether she's female or not contributes nothing to the progression of the story. Or rather, the most important thing for the march of the story is the character's motivation in reaction to the events happening in the setting. For example, we can go on to analyze whether Antigone represents feminity or not. yes, but not exactly. We can say that some of Antigone's behaviors are even masculine, pure toxic masculinity and that the so-called male mind and female mind are just tensions for the playwright, two tensions in one body, and the common force of these two tensions is the character's motivation.
+
+Cinema, its very existence is a paradox. Cinema wants to express what is beyond them through the pure language of cinema, which encompasses the visual and the auditory. In other words, cinema's attempts in the past few decades have been to use film as a medium and film language as a semiotic structure to capture something beyond semiotics. For example, let's say that animated films are full of critters with sex characteristics that humans can recognize visually. This is paradoxical because as a director or writer, you have to choose a person as your protagonist. That person has to be a biologically existing individual. This even goes so far as to explain why Disney and Pixar both had to make their critters look like a certain gender when they made their animated movies. This purely ideological indoctrination just proves the lack of film as a medium. Perhaps animated films are not a complete case of cinema; we might consider *Robocop* and *Artificial Intelligence* (Spielberg), two robot movies. Why do robots have to be in human form, and why do they have to exhibit some sort of gender identity? Because the very thing of gender is paradoxical enough; its very existence is a pure contingency that constitutes a sexual exception. There is no way to imagine an individual who is outside of both genders, so much so that all LGBT symbolic imagery is essentially a splintering of this paradoxical construct. Even more horrifying is the brutal misuse of women to promote a conformist ethic. For example, the use of female actors in a playwright's carefully crafted success story of a female entrepreneur. Can we call it liberating? No matter how we answer, the question itself is unanswerable. If we answer yes, it is liberating. The reason for this is simply that it shows the unexpected success of the female figure in a place where she would not otherwise have ventured. If we say no, it is not liberating. Doesn't it rather suggest that this kind of movie already posits the female figure within a male chauvinist ideological structure? Because it is only in a male chauvinist narrative that we say that women should not be successful in their careers. And no matter how we answer that we default to the dominance of a male chauvinist ideology. You realize that this is a dead end, this is a dead end that doesn't work.
+
+I want to make my point clear. I'm not suggesting that biological feminism, as referenced in this book, is an ideology that has negative implications in terms of value judgments. On the contrary, I think the idea is on the positive side, it's just that the author walked into a rut. She didn't pull herself out of this dichotomy which is silly enough on its own. If it is men who oppress women, then turning women into men will not change the status quo in any way. The oppression is always there, it's just reversed.
+
+Psychoanalysis has been concerned with the body since Freud. All the theories are derived from the interactions and feedback that people carry out in the physical world. This is why the dilemma faced by the female body cannot be ignored. However, this physical predicament is in fact rooted in a semiotic mechanism that is more ethereal than physical, and I prefer to attribute the exploitation of the female body to the appropriation and privatization of the means of production. The class contradiction here manifests itself as a gendered contradiction. As Shulamith Firestone makes a startling leap in her *The Dialectic of Sex*: so-called fertility is essentially a means of production. The action of the gender struggle, then, should be framed in terms of the class struggle. "so the end goal of the feminist revolution must be, unlike that of the first feminist movement, not just the elimination of male privilege but of the sex distinction itself" (Firestone, chpt. 1). I think I agree with Firestone's position and point of view. Instead of tinkering with the broken symbolic order in an environment that is not radically revolutionary, why not just mash up the symbolic order?
+
+The point I need to make here is that capitalism and masculinity are both the same at their core. Even male oppression under feudalism is all about the appropriation of reproductive rights, the appropriation of the means of production. And it is important to note here that oppression does not only exist between men and women, class oppression exists between bourgeoisie and proletariats. If we look closely at ordinary people going about their ordinary lives in the world, we will see that oppression is never practiced by all men against all women. It is practiced by all the bourgeoisie against all proletariats. To eliminate class is to eliminate the concept of gender itself. And only by doing so can we free the males who are controlled by primitive fathers, and free the females who are controlled by the compulsions of males as well. Who exactly is your enemy and who is your friend? Don't I think feminists should unite all the forces they can? Dividing the masses will only weaken the revolution.

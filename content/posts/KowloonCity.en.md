@@ -1,0 +1,85 @@
+---
+title: The Aesthetic Value and Construction of the Kowloon Walled City
+subtitle:
+date: 2021-11-29T00:19:34-04:00
+slug: 89debba
+draft: false
+author:
+  name: Shannon Li
+  link: 
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - Aesthetics
+  - Cyberpunk
+  - Architecture
+categories:
+  - Research Paper
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+Shannon Li
+
+Laren McClung
+
+EXPOS-UA 5 059
+
+29 Nov. 2021
+
+# The Aesthetic Value and Construction of the Kowloon Walled City
+
+{{< image src="https://flashbak.com/wp-content/uploads/2020/04/kowloon-27.jpg" caption="Kowloon Walled City" >}}
+
+This is a photo of the Kowloon Walled City. The photo was taken from the outside of the walled city, a commercial street composed of buildings. In the lower part of the photo, which is the part of the commercial street accessible to pedestrians, there are many billboards written in Chinese. Below these dense billboards, there are shuttle pedestrians. It is worth noting that on the edge of the road, a large amount of rubbish is piled up disorderly and no one cleans it. In the upper part of the photo, there is a residential area made up of windowsills like cages.
+
+The whole photo has a strong taste of Hong Kong streets. And this kind of dense, even artistic architectural complex structure. This special architectural composition is one of the most artistically valuable in the Kowloon Walled City in Hong Kong. This photo was taken by Greg Girard between 1986 to 1992. He simply titled this photo gallery *Kowloon Walled City* (Girard). Behind the photo, what he expresses is the real life of Kowloon Walled City, its special composition method and the unique history produced by history. This photo directly shows the rubbish on the ground caused by the lack of management and infrastructure construction in the Walled City, and this photo is only a corner of the exterior of the Kowloon Walled City. Inside the Kowloon Walled City, chaotic alleys, irregular three-dimensional building structures, and dark and narrow living spaces reflect the special nature of this area.
+
+Living in the Kowloon Walled City is not something to look forward to. As Greg Girard introduced in his book *City of Darkness Revisited*, there is a lack of drinking water supply inside the walled city, power shortage, and small living space (Girard). But what is strange is that the existence of the Kowloon Walled City and its special way of existence make artists try their best to reproduce this architectural style. As Derek Mead introduced in the article *A New Look at Kowloon Walled City, the Internet's Favorite Cyberpunk Slum*. The most well-known art style that represent Kowloon Walled City is Cyberpunk. And the writer who firstly introduced this type of visual impact to the public by novel is an American Sci-fi writer, William Gibson. William Gibson saw Greg Girard's photo during his trip in Japan. This directly stimulated William Gibson's subsequent writing. His famous work *Neuromancer* visually reproduces the Kowloon Walled City (Mead). In the decades that followed, Kowloon Walled City became an excellent form of cyberpunk. Aside from other derivative works, just this photo of Greg Girard is enough to show the beauty of the structure of the Kowloon Walled City. Why is such a place not worth living in so attractive, so that people continue to reproduce in the works of art? What is it about the chaotic architectural complex with a very low quality of life like The Kowloon Walled City that makes it repeatedly drawn in the modern era of continuous technological and economic development? What is the aesthetic significance of Kowloon Walled City in art?
+
+The special construction of Kowloon Walled City is a special result formed in a special historical process. The colonization of the British Empire controlled Hong Kong, which the Qing Dynasty could not govern, but the Qing government tried its best to retain the administrative power of the Kowloon area. Unfortunately, the collapse of the Qing government is already a matter of time. As Derek Mead concluded about the history of this city, next to the crumbling Qing government, Kowloon has become an extra-legal place surrounded by high walls and no one is willing to take responsibility (Mead). Due to the lack of jurisdiction, Kowloon Walled City has become an excellent place for refugees from the World War II (Mead). They finally formed a residential area spontaneously, which is also the preface for the Kowloon Walled City to grow into a complex of buildings. In other words, the aesthetic value of the Kowloon Walled City is due to its chaos and disorder. What is special about a chaotic architecture as an artwork? 
+
+In the 1960s, the most glorious development of the Kowloon Walled City, the Walled City was already quite large. The population has also been increasing due to the Chinese Civil War and the Cultural Revolution (Mead). The development of the Kowloon Walled City is determined by the people who live in it. The population that settles later will live in the higher, newly built floors. In general, if the Kowloon Walled City is defined as a collection of works of art, then the residents are the artists who created the works. If you want to participate in the creation of the Kowloon Walled City, you must live in it, that is, enter the work. As critic John Berger writes, "The secret was to get inside whatever I was looking at - a bucket of water, a cow, a city (like Toledo) seen from above, an oak tree; and once inside, to arrange its appearances for the better" (Berger 30). Entering the work is to understand it better, but not to make it better in the literal sense. To be honest, the situation at the Kowloon Walled City is not optimistic. For the audience, entering the interior will not feel the beauty in the traditional sense. Entering it is to feel the good brought about by its difference. How did this paradoxical aesthetic value come about? In the definition of the aesthetic value of an artwork, its value is defined by the artist and the work, so the participation of the artist has become a part of the aesthetic value. In the process of constructing the Kowloon Walled City, what kind of relationship does the artist, or the residents, have with the work in the process of participating in the creation?
+
+There is a distance between the work and the creator. This distance allows the audience to see themselves as a real audience instead of entering the work purely. This distance maintains the author's rationality when creating, because if the author does not reserve rationality in the process of creation, the author will turn everything they have into a work. When the author becomes a work, the work cannot be separated from it. Artwork that is too close does not represent a pure form of expression but takes the author as a part of the form of expression. According to John Berger’s point of view about distance in artwork, "To go in close means forgetting convention, reputation, reasoning, hiaerarchies, and self. It also means risking incoherence, even madness. For it can happen that one gets too close and then the collaboration breaks down and the painter dissolves into the model" (Berger 30). This lack of distance is dissolve, mentioned by John Berger in his article Toward a Small Theory of the Visible. Too close distance makes the author unable to separate from the act of creation, so the author's creation is constantly evolving itself. Because when the distance is missing, the author is trying their best to express themselves, rather than expressing only as a form of art. In this evolution of the self, the creator constantly discovers and denies the part of consciousness that denies the self, and the creation is not the evolution of something. But in this process, negation keeps appearing. Therefore, this continuous cycle allows the creator to dissolve into their own evolution, that is, evolution loses the distance from the self. And this continuous evolution loses continuity at the same time, because in the process of constant negation, the process of evolution is out of self-coordination. Therefore, in this incoherent cycle of negation, the ego has fallen into madness. Because even though we are constantly negating evolution, this evolution has never touched the self that expresses self-approval. Therefore, in order to express this self-extracted self, the creator must enter a hysterical cycle. Constantly denying evolution in an incoherent cycle, creating madness.
+
+Unlike an ordinary city, where residents do not participate in the design and construction of houses. Even if they participate, they are not really taking over with full authority, but just choose what meets their own wishes from some of the presets given by others. This creation is a kind of cooperation, a two-way cater to the art form and the creator's wishes. This kind of cooperation liberates the creator from conflict, because there is no conflict between the work and the creator. This is the distance of creation. This distance brings a sense of security to the creator and to the residents who are also viewers. In the Kowloon Walled City, residents are creators and audiences at the same time. However, because the creators live directly in the work, the disappearance of this distance directly leads to the residents of Kowloon Walled City who project their entire self completely when they are creating their own houses. Because the distance of creation disappears, the work becomes an evolution of the self. Therefore, the residents carry out house construction in the negation of the cycle. Specifically, the houses in the Kowloon Walled City are not like ordinary cities that are contracted and constructed by developers. On the contrary, it is formed by an anarchistic self-evolution. That is, a new building is superimposed on the completed building again. This is the negation of fixed construction. Because even the completed buildings will evolve because of housing needs, which will negate themselves. In this process of evolution, negation did not disappear, but was covered by the process of evolution. Strictly speaking, it should be kept under the evolution. Residents participate in this evolution, not only the builders of the evolution, but also the demanders and appreciators. Moreover, the evolution of this cycle is not carried out by a specific individual but constructed by a group. In other words, to use this to explain the relationship between artists and architecture in the Kowloon Walled City is a construction that is the negation of the cycle of group consciousness. In the process of this construction, the building continues to evolve, making the building itself the basis of architectural evolution. In the Kowloon Walled City, one of the most prominent photos of this evolution is an indoor temple. A very small temple runs through the first and second floors, and above the temple is a semi-transparent floor similar to a barbed wire. This barbed wire became the floor of the floor above the temple. This kind of wonderful conflict is a challenge to traditional architectural aesthetics. This challenge is initiated by denial and evolution. Because it is the evolution that takes place above the negation that the inhabitants as artists can withdraw their self-completed self and create madness from this incoherent evolution. It is this challenge that has become a major feature of the Kowloon Walled City architecture, that is, its architectural aesthetics.
+
+After dissolving the traditional artistic creation relationship, the creation process of Kowloon Walled City became the fundamental reason for its unique architectural aesthetics. This crazy evolution challenges traditional architectural relationships. Because this challenge is not a pure, detached art. It is attached to an entire operational building system. Just like Terry Tempest Williams’ definition of the nature of art, “Art is dangerous because it doesn’t have a definable function. I think that is what people are afraid of” (Williams 43). In Williams’ understanding, art is dangerous. Because it has no specific definable function. But the Kowloon Walled City directly challenged this view, because the existence of the Walled City itself exists for the purpose of living. The reason why Kowloon Walled City has its special architectural aesthetic value is that its entire artistic relationship and architectural model challenge traditional artistic methods. But this does not mean that the Kowloon Walled City is not dangerous. On the contrary, it is precisely because it does its best to challenge traditional art that it is even more dangerous. Because the author has fallen into the artwork of the Walled City, after throwing away the value of residence, it becomes a purely dangerous artwork. It is precisely because the Kowloon Walled City regards chaos and disorder as the core of its aesthetics, and this chaos and disorder is at the same time the most meaningless function, the walled city as a work of art is even more dangerous.
+
+The chaos and disorder of the Kowloon Walled City arise from its special historical background, and this special history has led to its special architectural model. At too close a distance, crazy challenges were continuously launched. And such a challenge puts the walled city in the position of the most dangerous artwork. This is the reason for its charm, and this is the most aesthetic aspect of the entire area as a building. Its special mode of existence challenges people's cognition of artworks, and at the same time makes people shudder-what a dangerous and beautiful place. It is all this that puts the artistry of Kowloon Walled City to a terrifying height. That is the reason why people continue to reproduce it-people have discovered the hidden dangers in this strange chaotic pattern, and they want to do their best to discover the aesthetic value of dangerous works of art. This is what makes the Kowloon Walled City secure an important position in the history of art, and makes artists continue to challenge this unique artistic beauty.
+
+---
+
+# Work Cited
+
+Girard, Greg. *City Of Darkness: Revisited*. Edited by Ian Lambot Ed., Watermark, 2014.
+
+John, Berger. *John Berger Steps Towards a Small Theory of the Visible /Anglais (GREAT IDEAS)*. PENGUIN UK, 2020.
+
+Mead, Derek. “A New Look at Kowloon Walled City, the Internet’s Favorite Cyberpunk Slum.” *VICE*, 3 Apr. 2014, www.vice.com/en/article/kbzwvm/a-new-look-at-kowloon-walled-city-the-internets-favorite-cyberpunk-slum.
+
+Williams, Terry. “A Shark in the Mind of One Contemplating Wilderness".” *The Nation*, Nov. 1999, pp. 42–44.

@@ -1,0 +1,87 @@
+---
+title: 斐多篇
+subtitle: 记忆vs笔记
+date: 2023-11-06T17:40:10-04:00
+slug: 9185578
+draft: false
+author:
+  name: Shannon Li
+  link: 
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - 哲学
+  - 修辞学
+categories:
+  - 随笔
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+Plato. *Plato: Complete Works*. Hackett Publishing, 1997. *Phaedrus*. 
+
+---
+
+我在七年级（freshman year of junior high school）的第一天入学时，就曾与一个戴眼镜的孩子以非常幼稚的方式去争论一个愚蠢的问题。这个争论的主要形式如下：
+
+\-   你是笨蛋
+
+\-   反弹！
+
+\-   反弹无效！
+
+\-   反弹有效，句号！
+
+\-   我的IQ是你的两倍，逗号！
+
+\-   我的IQ是你的绝对值！
+
+当然我们可以不停地去延续这个修辞学的问题。然而，当我第一次听到“绝对值”这个概念的时候，我意识到我无法继续这场争论了。原因便是我当时还不知道什么是“绝对值”，也就是说我的脑子里根本就没有这个词汇的signified。我的整个语言系统宕机了那么几秒钟。也许现在回过头看我们可以用类似“平方”之类的概念去堆叠那场争论，但这反倒意味着修辞学出现了某种裂痕。
+
+这段文章是关于苏格拉底和Phaedrus之间的对话的，但是为便于沟通，我会将苏格拉底的观点称为柏拉图的观点。
+
+柏拉图认为讨论“爱”这个概念就应当确保参与讨论者双方都对其有着平等的理解。但这显然是不可能的，没有两个人有着完全一样的经历。柏拉图在对话中讨论的爱有着三种不同的形式：因利益催生的爱、由性欲驱动的爱，和纯粹而神圣的爱。但它们都不能整全地表达“爱”这个概念。
+
+那倘若让我和我的七年级眼镜同学去争论其他的问题，就如同柏拉图在文章中描述的形式一样，其本质都是相同的。我们可以开启一个关于最大的数字的争论，就如同梵语佛学家在过去千年里做的那样子。
+
+  Gangā-Nadī-Vālukā = 10^52
+  Asaṃkhyeya = 10^140
+  Nayutaḥ = 10^37
+  Nirabhilapya nirabhilapya Parivarta = 10^(7×2^122 )
+
+这些数字到底有多大其实是不重要的，而重要的是这些数字诞生的原因都是为了阐述佛所经历的时间之久。而作者总是觉得已有的数字称号不够大，所以他们便要发明一个更大的数字。而仅仅使用这些数字是不够的，更是需要重复地强调。在一个句子中，大数字称号总是堆叠放置，以达到相乘的效果。“A nirabhilapya parivarta times a nirabhilapya parivarta is an ineffably ineffable [nirabhilapya nirabhilapya]. A nirabhilapya nirabhilapya times a nirabhilapya nirabhilapya is a nirabhilapya nirabhilapya parivarta” (Mahāvaipulya Sūtra of Buddha Adornment, Fascicle 45, Chpt. 30). 更不要说这篇文章全篇都是不停地通过平方堆叠来创造大数的。
+
+我当然很好奇柏拉图在这里想要讨论修辞学的问题，并且他也提到了修辞学的极限：显然通读一本字典并不意味着一个人学会了一切。把整个医学著作都背下来并不意味着能够行医。 “It is their ignorance that makes them think they have discovered what rhetoric is when they have mastered only what it is necessary to learn as preliminaries” (546). 除此之外，柏拉图在551页也通过一个埃及神的故事讲解了写作和记忆力的关系。因为柏拉图认为，书籍上写下的东西并不是人脑中的智慧。我倒也愿意再提供一个荒谬的笑料供你们快乐一会：
+
+“鱼越大，鱼刺越多；鱼刺越多，鱼肉越少；鱼肉越少，鱼越小。”
+
+“剩余价值率越大，剩余价值越多。剩余价值越多，必要劳动越少。必要劳动越少，可变资本越小。可变资本越小，资本有机构成越高。资本有机构成越高，利润率越小。所以剩余价值率越大，利润率越小。”
+
+这当然是逻辑谬误，但这不重要。毕竟所有的逻辑都是依赖于语言的形而上学结构的。例如我们可以看看是否可以这样子写：
+
+“知识越多，识字越多。识字越多，读书越多。读书越多，做笔记越多。做笔记越多，记忆越少。记忆越少，知识越少。所以知识越多，知识越少。”
+
+那么自然而然地，研究“这个词语的定义是什么”这类行为显然不能够让学生成为哲学家。我倒是乐意怀疑这一点。果真如此吗？有些时候，我确实觉得也许一个解释所有哲学词汇的字典是必要的，有些时候我又觉得绝对不允许一个字典出现。我并没有定论。

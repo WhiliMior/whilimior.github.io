@@ -1,0 +1,58 @@
+/** 添加网格背景 */
+.single {
+    .single-subtitle {
+      color: #57606a;
+    }
+  
+    .content {
+      background-image: linear-gradient(90deg, rgba(60, 10, 30, .04) 3%, transparent 0), linear-gradient(1turn, rgba(60, 10, 30, .04) 3%, transparent 0);
+      background-size: 20px 20px;
+      background-position: center;
+    
+      [data-theme='dark'] & {
+        background-image: linear-gradient(90deg, rgba(195, 245, 215, .04) 3%, transparent 0), linear-gradient(1turn, rgba(195, 245, 215, .04) 3%, transparent 0);
+      }
+    }
+  }
+
+  /* 分隔线 */
+hr {
+  border: none;
+  border-bottom: 2px dashed #7a7a7a !important;
+}
+
+/* 页脚分割线 */
+.footer {
+  display: block;
+border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #c7c7c7;
+  position: relative;
+  z-index: -1;
+  max-width: 800px;
+  width: 60%;
+  margin: .5rem auto 0 auto;
+padding-left: 0rem;
+padding-right: 0rem;
+}
+@media only screen and (max-width: 1440px) {
+  .footer {
+      width:54.5%
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer {
+      width:50.5%
+  }
+}
+@media only screen and (max-width: 960px) {
+  .footer {
+      width: 77%
+  }
+}
+@media only screen and (max-width: 680px) {
+  .footer {
+      width: 95%
+  }
+}
+

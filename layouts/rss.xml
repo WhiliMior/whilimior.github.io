@@ -1,0 +1,8 @@
+{{- $options := dict "Site" .Site "Config" .Site.Params.feed "OutputFormats" .OutputFormats -}}
+{{- $options = dict "Permalink" .Permalink "Version" (.Scratch.Get "version") | merge $options -}}
+{{- $pages := .Scratch.Get "mainSectionPages" -}}
+{{- if not $pages -}}
+  {{- $pages = .Pages -}}
+{{- end -}}
+{{- $options = dict "Title" .Site.Title "Pages" $pages | merge $options -}}
+{{- partial "feed/rss.html" $options -}}

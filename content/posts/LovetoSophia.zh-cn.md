@@ -1,0 +1,55 @@
+---
+title: Love to Sophia
+subtitle:
+date: 2023-10-02T17:28:11-04:00
+slug: 5861c41
+draft: false
+author:
+  name: Shannon Li
+  link: 
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - 哲学
+categories:
+  - 随笔
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+Curd, Patricia. *A Presocratics Reader: Selected Fragments and Testimonia*. Hackett Publishing, 2011.
+
+---
+
+占星术在这些古老的哲学家的理论体系中有着非常重要的地位。而对于他们的哲学思想，则处在人类文明对未知探索时期的自然现象的一种稚嫩推测的状态。虽然说三位Milesians对于世界的认识是错误的，因为那时基础化学和物理都没有发展，甚至说数学都处在一个萌芽阶段。但并不意味着他们的思想没有可以学习的地方。
+
+例如说，在第18页的第15小结，Hippolytus讨论了地球和太阳的物理性质，也就是利用他对地球上总结的物理规律，对天文学进行推导。坦白说我真的没有看懂他这一段的意思，也许是因为我作为现代人的基础知识很难让我去想象他描述的天文原理。我认为，纠结于他们的物理知识是否是事实性错误的根本是无关紧要的。他们为什么会形成如此的思想，为什么会认为世界由某种元素组成，为什么认为存在某种原初物质（也许是提出原子理论甚至上帝粒子理论时同样的思维惯性）？是什么样的思维模式引导了他们？
+
+Philosophy，就从它的古希腊词源来说，就是love Sophia。对智慧的爱。这里便有一句：“Men who are lovers of wisdom must be inquirers into many things indeed” (36, p.45)。并不是说哲学学习能为人带来什么说教的能力，口齿伶俐的演讲能力或者什么（确实有很多人这样评价哲学学生）。我也不认为学了哲学就能变成超人，理解万事万物，变得大彻大悟。Love to Sophia是拥抱一种思维模式，一种探究精神。而这种精神，和实证主义科学的研究态度是共通的。哲学研究必然要求研究者不断地去询问，去探索。在理论的不断运动之中，让理论螺旋上升。我不期待一个big Other突然跳出来告诉我世界的真理是什么，或者说真理存在与否根本是无所谓的。
+
+在Parmenides这一章中，有一句贯穿西方哲学的话：“. . . for the same thing is for thinking and for being” (3, p.58)。我认为，由此，整个哲学历史的脉络直到《纯粹理性批判》时代后的哲学，都由此思想贯穿。它（如果让我来解读的话）的意义是超过柏拉图主义的Idealism的，它所说的thinking and being 二者的同一并不意味着我们总要将视线看向主体与客体的二分法。而是根本上它们是同一个东西，而不是二者。而这句话的伟大之处在于，这句话必然由思维道出。或者说无论它是由thinking说出还是由being说出，后者都会变成前者。这个过程就已经证明自身了。美丽的思维。
+
+102页中的第3段，Anaxagoras提出了关于小和大的讨论。这让我想起Heraclitus在45页第40段的话：“It is not possible to step twice into the same river”. 它用形而上学的方式，触及到了辩证法的方法。对于纯粹形式逻辑的思考果真是古代哲学家的秘诀吗？

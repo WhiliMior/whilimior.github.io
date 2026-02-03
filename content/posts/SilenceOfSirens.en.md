@@ -1,0 +1,148 @@
+---
+title: The Thing We Lost in Modernity
+subtitle:
+date: 2022-03-01T01:29:09-04:00
+slug: eeb197f
+draft: false
+author:
+  name: Shannon Li
+  link: 
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - Philosophy
+  - Psychoanalysis
+  - Literature
+  - Modernity
+  - Semiotics
+  - Capitalism
+categories:
+  - Research Paper
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+Shannon Li
+
+Normandy Sherwood
+
+APSS-UT 2
+
+1 May 2022
+
+# The Thing We Lost in Modernity
+
+Franz Kafka was a German-language Bohemian novelist and short-story writer. His writing always presents a disgusting world where we feel be apart from ourselves - As how we feel in modern times.
+
+In his work, *The Silence of the Sirens*, he used five hundred words to tell a simple story: “To protect himself from the Sirens Ulysses stopped his ears with wax and had himself bound to the mast of his ship” (Kafka). When Ulysses traveled into the sea where the Sirens are, he heard nothing. He saw “their throats rising and falling, their breasts lifting, their eyes filled with tears, their lips half-parted”, and believed they are singing something. But sirens sang nothing, only silence.
+
+It seems like a simple story of Ulysses plugging his ears to prevent himself from being seduced by sirens. It's just that Kafka has added a layer of skin to it, that is, sirens themselves do not sing. But this leads to another question that Kafka discussed in the last paragraph, that is, can Ulysses know that sirens didn't sing, or did he start thinking about the possibility that sirens didn't sing? This is a bold rewrite of the story in Homer's *The Odyssey*.
+
+Specifically, what Kafka expresses is actually what Ulysses loses in rejection. In the story, Ulysses can no longer prove that sirens didn't sing. If we make a bolder generalization, we should say that modern people are Ulysses. We all lose something in rejection. The sirens-like silence conveyed by Kafka is, instead, a powerful resistance. But before resisting, we should see Ulysses' rejection, and his cynicism disciplined by modernity.
+
+The so-called modernity refers to a structure under the discourse of modern society. For example, the life of modern people cannot be separated from the construction of factories, currencies, the Internet, and other infrastructure. Strictly speaking, modernity does not have such a concrete representation of reality. However, the social phenomenon manifested by modern life itself has modernity. If we look at another dimension of modern life, the most appropriate example should be the Internet. Specifically, it should be a semiotic transmission mode under the discourse power of capitalism - but modernity does not only exist in capitalism, what is emphasized here is the modernity constructed by the capitalist discourse. 
+
+Since smartphones and the Internet entered millions of households ten years ago, there has been a scary social phenomenon: people seem to have gradually lost their ability to criticize, or the question of if people lost their ability to think under the influence of big data is being more and more asked. So, what exactly is modernity? What kind of predicament have people stepped into under the discipline of modernity? Let’s start with the conclusion: Modern men are dead. Modern men have lost the ability to perceive and reflect, so we are dead. We can no longer cause any substantial disruption to any existing architecture, but simply go with the flow. We are no longer part of history, but modern data at the end of history. How so? How do modern people die? We need to start with how modernity affects people.
+
+Modernity is a dissolution of tradition, which can lead to a terrifying sense of rupture. Because when people no longer have the ability to perceive tradition or pre-modernity. Modernity has become the only tradition. Traditional traditions are dismantled and replaced by unconventional traditions. From Michel Foucault's point of view, modernity is the process of rule building, which imbues life with unconventional order and procedures. Michel Foucault is a representative of 20th-century French philosophy, and his research on power and the control of modernity is collected in his book *Discipline and Punish*. Foucault mainly discusses how the prison - as an object of modernity's mode of punishment - came into being. The death of modern people is carried out in prisons, but not a physical one. 
+
+He found prison in many cases valuable as a vehicle for punishment because it is a space. However, precisely because it is a space, the discipline of the prison does not appear to be universal. If a prison requires space to function, then it is not universal, not ultimately economic. The real prison should be the discipline of power itself. Something unseen. “The general juridical form that guaranteed a system of rights that were egalitarian in principle was supported by these tiny, everyday, physical mechanisms, by all those systems of micro-power that are essentially non-egalitarian and asymmetrical that we call the disciplines” (Foucault 222). As Foucault states in his essay, in this type of power, the severity of the punishment itself is of secondary importance, or even whether it occurs in reality or not. The key is to make people think that it is ubiquitous and instill a set of political and moral education requirements and norms that it carries into every citizen. 
+
+Foucault called the prison the Panopticon, which was proposed by another English philosopher, Jeremy Bentham, in a 1791 letter titled *Panopticon, or The Inspection House*. This new, modern prison consists of a small shutter on each cell door so that prisoners cannot see outside clearly. And in the center of the prison, there is a tower where the guards can see everyone into any cells - even if they're not actually looking at a particular prisoner, the prisoners imagine the guards are looking at them. The purpose of the Panopticon is to complete a process of internalization through a series of representations and spectacles. Furthermore, symbolic power constructs an imaginary world of meaning-giving; in this world, a variety of symbols, discourses, and meanings circulate. And our identity construction is entirely dependent on the unilateral indoctrination and reeducation of this symbolic world.
+
+In fact, the subject of discipline in modern society is not an individual or a group, but a virtual reality. What virtual reality stands for here is not technological, a virtual space that can be seen, created by a display screen. It is because it is invisible in itself, but it has indeed become part of the construction of society. Contrasted with Foucault's prisons, the problem with modern life is that we actually live in prisons. This prison should be called big data. The term big data does not simply refer to a certain way of data collection and processing, but to the way humans exist in the entire networked society. The virtual becomes reality, and this is the problem we face.
+
+Since the birth of online social media, all kinds of "Sock Puppets" have been created continuously. This "Sock Puppet" is a transcendental rule constructed by virtual reality, that is, the subject of discipline. In modern social life, the most appropriate example should be "credit card". A credit card has a nature: it can be lost or stolen. When a similar situation occurs, the purchases made by the credit card during the period of loss will be considered as actual purchases by the holder. Credit cards go beyond virtual reality. It's not the cardholder, but it goes beyond the cardholder. It can fully represent the holder without the holder's presence. In other words, even if the holder is standing there, the individual still has to stand a "Sock Puppet" in front of him to represent himself, so that this person can be accepted by the modern system and can join the social group that has been disciplined by modernity.
+
+Like a Panopticon-type prison, the identity of the modern man is no longer defined by the man himself but has become a symbol defined by the process of indoctrination. In the modern network society, the footprints left by each person in the network are intertwined and become the label for the network to identify the individual. This label is actually more powerful than the person because it transcends the individual it originally represents. What this label represents is the negation of the self who is more like the self than the self, but they are the same inside, because they are all the self, but at the same time they are the negation of the self that is beyond the self.
+
+This leads to a problem, that is, modern people have lost the ability to identify themselves. Because they themselves can no longer represent themselves. They were surpassed. This is a real phenomenon, not an inference. The reason for this phenomenon is that the network itself cannot represent anyone. It is not trustworthy in itself but is given by all who trust it. However, once this trust structure is established, the person who gives it trust is no longer trustworthy. Because there is already a more authoritative and credible discipline subject. And, under this norm, the discipline subject will consolidate its authority step by step. And this method is personalized recommendation. 
+
+Personalized recommendation refers to a modern contact that is completely opposite to the traditional way of contacting information. For example, propaganda is a recommendation, but not personalized. Personalized recommendations are a kind of fertile nourishment that is integral to the modern transparent prison. It is a kind of absolute unfreedom that allows individuals to self-discipline in an attitude of absolute freedom. Take any social media or video platform as an example, their "trend" is a personalized recommendation. "Trend" usually suggests content that users may be interested in based on their browsing history: the results produced by this algorithm are usually generated by comparing with other users who have also viewed the overlapping contents. It presents content that people are likely to like in a smart way, not content that disagrees with them. On the surface, users have absolute freedom of choice: they can freely choose among the nearly infinite contents derived from personalized recommendations, but in fact these choices are not free in nature. They are personalized.
+
+Through personalized recommendations, big data can further understand individual tendencies and further represent individual choices. And where it will end up, is the individuation of an individual who has lost the ability to choose. In the step-by-step process of dismantling the individual, what we can foresee is the rejection of modern people—the Ulysses-style rejection. As with the working model of "trend", once it gives people certain choices, people reject other choices that are not those.
+
+Rejection is the absence of the ability to choose. Rejection in this context is a complete loss of the possibility to see the negativity of permission—as big data is supposed to work. Ulysses refused to hear the silence of sirens, thinking that his choice was free. But in reality, he was completely unfree. He was disciplined in a prostrate posture: the belief that refusal to hear is an acceptance. This is an obedience. For us, this reality leads to another problem. That is the price of obedience. This can be further diverged by a theory on interrogation that Foucault cites at the end of the book.
+
+Foucault ends the book with a discussion of the role of interrogation in the criminal justice system. The interrogation will continue to find reasons for criminals' behavior from the life and behavior of the prisoner, that is, the prisoner becomes a prisoner is not accidental, but inevitable. The interrogation will focus on "Why did you become such a person?" Such questioning leads to the fact that in the end, even the prisoner himself will feel that he must become a prisoner. This makes it extremely difficult for prisoners to reintegrate into society. Prisons treat them as a resource that can be managed by keeping them on the fringes of society.
+
+*The Stranger* by Albert Camus is a short novel. Albert Camus was a French philosopher, author, and journalist, and the winner of the 1957 Nobel Prize in Literature. The novel is based on the death of the protagonist Meursault's mother. Meursault did not grieve after the death of his mother, but was rather indifferent, even dating a new girlfriend the day after his mother was buried. However, Meursault did not expect that his behavior was not understood by everyone, so after he accidentally killed his friend's opponent, he was accused by everyone that he had no feelings for his mother and was a born villain, then was finally sentenced to death. Meursault's actions are not actually inhuman, but simply absurd, according to Camus. Meursault is looking at the world from a nihilistic point of view as if he has maintained a huge sense of distance from everything that is happening around him, and everything has lost its meaning.
+
+During Meursault's interrogation, the judge repeatedly asked the question he had already asked, "he asked if I loved Maman" (Camus 67). The judge asked if he loved his mother, and what he was thinking when he pulled the trigger to kill the victim. Meursault seemed calm and even a little apathetic to the repeated questioning as if he was unconsciously saying that he loved his mother and that he shot somebody because the sand was red, and the sun was hot. Like Foucault's analysis of the interrogation, the judge's questioning is to prove that Meursault should be a villain and to convince himself that he is a villain. The judge found that Meursault had no remorse at all but that Meursault simply felt he was telling the truth. The discipline of the court was to make Meursault a villain and to make him believe he is a villain.
+
+Like the title of Camus' book, *The Stranger*, Meursault became a socially marginalized stranger. One has to prove that he is a human being to return to the acceptance of society. But this begs the dreaded question, will "I" be a stranger? Meursault was charged with murder, but the judge needed to know why he didn't cry at his mum's funeral. Because this behavior is not human or does not obey the symbolic discipline of society. If this proposition is pushed to the limit, anyone may be a disobedient person, and anyone may be sentenced to extreme punishment for this. When everyone is laughing, if a person is crying, that individual becomes a strange person, regardless of whether the person actually wants to cry. What's more terrifying is that the crying person will also think that self is abnormal, and thus lose the ability to think about discipline.
+
+In this way, the discipline of modernity makes people completely immersed in a society full of symbolic discipline. And believing that they should be in the right place as much as surrendering. Virtual reality, and the Sock Puppet performed in it, have forced modern humans to identify themselves by simulacrums. By looking at the screen - not the mirror - the virtual world we see is becoming reality. Step by step, they occupy the real space that should belong to us by representing us. The problem with these virtual things is not that they are too virtual, but that they are not virtual enough. *Needy Girl Overdose* is a GalGame released in early 2022. The whole game is based on a premise: hate the Internet, but can't live without it. I want to be praised by everyone, but I don't want to be in contact with real people. This is clearly divisive. Ame-chan is the main character in the game who has a conversation with the player. She is a mentally ill, impoverished girl. She dropped out of school at home, and the player, as her boyfriend and producer, helped her become a popular streamer. In order to pay the rent and to meet the need to be noticed, Ame put on a wig, put on heavy makeup, and interacted with the live audience on the Internet. In this case, KAngel, Ame's webcast image, is her "credit card".
+
+The game has a variety of endings, and Ame will also get different experiences and endings according to the different options players choose during the game. Ame could graduate—retire from her streamer industry, fall in love with players, or break up. One of the endings, titled *There Are No Angels*, was caused by not getting enough fans for Ame in a long time. In that ending, Ame stayed below five hundred thousand subscribers for thirty days, so she jumped off the ground and left the world. In the end, the last text on the screen is: "Love and online numbers are her coping mechanisms."
+
+The problem with the Internet isn't that it's too virtual, it's that it's not virtual enough. When people pay too much attention to the virtual symbolic world or are immersed in the symbolic discipline of society, they lose the ability to perceive reality in the sense of distance. Virtual reality, as a non-reality that is not virtual enough, is a constant, painful, and traumatic questioning of people trying to escape discipline. People lose themselves in discipline and lose their ability to maintain themselves in the process of trying to find themselves. To borrow Debord's concept, we are all spectacles. Guy-Ernest Debord was a French Marxist theorist, philosopher, and filmmaker. In his book *The Society of the Spectacle*, he believed in analyzing the media, or how propaganda killed modern men is the core of modernity analysis. A fundamental concept in the book, "spectacle", is constantly changing, sometimes as images, but sometimes as commodities, social relations, organizations, or worldviews. The spectacle doesn't seem to be a specific concept of matter. Strictly speaking, the spectacle is a constitutive principle of a highly media-developed society.
+
+Spectacle, similar to an exhibition. Put something in a glass case on the street for the public to see. And its purpose is to let people enter the system represented by the spectacle. Ame's behavior, being a streamer, is essentially that she wants to be popular. In the process, she inevitably symbolizes and commodifies herself. Ame put herself in the exhibition cabinet called the live broadcast room, doing her best to improve her semiotic value. Landscape yourself, turn yourself into a pure symbol. Debord's spectacle theory is based on the analysis of consumerism. Basically, Debord argues, the purpose of spectacles is consumption, and consumerism in turn commodifies our lives. In the process, our desires are dissipated: because everything can be bought - even if it is not. It also makes people think we need more, not want more. And the fundamental driving force is vanity and narcissism.
+
+The concept of the disappearance of desire complements the theory of virtual reality above in a different way. Because virtual reality serves a consumerist society, as in Ame's case, her virtual life is a resource for real life. And the spectacle is also virtual, it separates everything from reality and drags it into the theatre of the spectacle. All the real things have become imaginary, all the real things are cosplaying, and they are all symbolized and commercialized. Instead, everything that is virtual is becoming reality. Instead of reading, we buy books and put them on display on the living room shelf. We spend in coffee shops and use every purchase to contribute to a fund for third-world children. Even life ceases to be life, it becomes a pure sign, a spectacle.
+
+We have lost our ability to see true purity in a purely symbolic order. The desire for modern life is occupied by consumerism, and the desire itself is eliminated. And virtual reality is eating away at the rest. We end up in total rejection of reality.
+
+What was lost, as Ulysses did, was the ability to imagine different possibilities. And this dissolution is produced through the construction of modernity power. Reality is disappearing and we reject reality.
+
+In the order of modernity, people are lost. And specifically, they lost the ability to think under the mandate of technology and consumerism. What is lost is the ability to reflect on whether they have been disciplined or not. Or, to think about whether sirens are singing. This dissolution takes place through ideological discipline. The way of discipline is through the absence of choice, or, in other words, the absence of possibility. What we actually lose is the ability to know that things might be different. Like Ulysses, we plug our ears, lose our hearing, and lose the possibility of resistance. Because we can no longer know whether it is possible for sirens to be silent.
+
+So, modern men are dead. Not because of our physical flaws, but because we live in a breeding ground of over-completeness. This swaddling warmth makes us reluctant to face the suffering that is happening. This is the refusal under the discipline of modernity. When we reject it completely, we die. We die in prison: a fully symbolic virtual reality, a breathless spectacle society filled with meaning and ideology. We cosplay behind the credit card, and commodify ourselves into spectacles.
+
+So, in such a situation, what should we do? What should our life be like? Does it have to be dry firewood to be burned? The resistance of sirens was silence. But why does it have to be silence? Or fundamentally, is the silence of sirens resisting, what are sirens doing? There is a chasm between speech and silence, this chasm is absence. But silence is not nothing. Silence expresses another mode of speech, speech that lacks content.
+
+Before silence, it's necessary to go back to *The Stranger*'s text. Meursault in the book cares nothing, the world has no meaning. But from what Camus wanted to convey, he was not an absurd, irrational person. On the contrary, he is a sun-loving man with a passion for life. Everything he does seems so absurd, so socially disjointed. Meursault's approach is a rejection of discipline. He loves being and feeling itself, not value judgments. The judge's interrogation was aimed at getting Meursault to admit that he did regret the death of his mother and the death of the victim. But he does not think he is regretful, and even firmly believes that he is happy. He refuses to accept value judgments, and his nihilistic vision sees everything as equal. Nothing is worth more than another. Precisely because he rejected the constraints of society, he did not lie in court. He said the motivation for the killing was that the sun was hot because he did feel the sun was hot.
+
+In this sense, he is a stranger. Because he stood by his own truth. But is truth itself a value judgment? Isn't that the norm of that kind of society? On the contrary, there is no universal thing or reason that tries to convince others. It is a complete revelation of the contingency and absurdity of existence. Because, as Meursault thought, the world is absurd and meaningless. In fact, he doesn't care how things are, because things exist in and of themselves. How things are is not a thought, but a reality. Meursault's truth is truth precisely because it has no meaning and therefore no room for refutation. He lives in purity that has taken off the cloak of semiotics. He stared straight at the hot, full, shadowless sun.
+
+Meursault is powerless. He has no power to overturn the existing order - like all disciplined modern people. Or to him, even doing so would be meaningless. In fact, his incompetence made him the most powerful force. Like the silence of the sirens, they were powerless in the face of the Ulysses who rejected them completely. However, their incompetence made them choose silence. Silence instead became the most powerful weapon against Ulysses. The only way to really get Ulysses to accept it is to make him wonder if sirens actually sing. Silence adds meaning to this choice.
+
+For none of us has said anything, but in the absence of meaning all semiotic speech is encompassed, but at the same time, all is sublated. 
+
+Or is that a practical solution?
+
+---
+
+# Work Cited
+
+Bentham, Jeremy. *Panopticon: Or The Inspection House (1791)*. Kessinger Publishing, LLC, 2010.
+
+Camus, Albert, and Matthew Ward. *The Stranger*. Vintage, 1989.
+
+Debord, Guy. *Society Of The Spectacle*. Black and Red, 2002.
+
+Fisher, Marc. “Flushing out the True Cause of the Global Toilet Paper Shortage amid Coronavirus Pandemic.” *The Washington Post*, 7 Apr. 2020, www.washingtonpost.com/national/coronavirus-toilet-paper-shortage-panic/2020/04/07/1fd30e92-75b5-11ea-87da-77a8136c1a6d_story.html.
+
+Foucault, Michel, and Alan Sheridan. *Discipline and Punish: The Birth of the Prison*. Vintage Books, 1995.
+
+Homer, and Emily Wilson. *The Odyssey*. 1st Edition, W. W. Norton and Company, 2018.
+
+Kafka, Franz, and Edwin Muir, translators. *The Silence of the Sirens*. Martin Secker, 1933.
+
+*Needy Girl Overdose.* Xemono Co., Ltd, 2022
+
+ 

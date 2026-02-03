@@ -1,0 +1,52 @@
+---
+title: Antigone
+subtitle: Compulsion
+date: 2023-09-18T17:19:31-04:00
+slug: 9fbbf41
+draft: false
+author:
+  name: Shannon Li
+  link:
+  email: zl4061@nyu.edu
+  avatar: "images/avatar.png"
+description:
+keywords:
+license:
+comment: true
+weight: 0
+tags:
+  - Literature
+  - Psychoanalysis
+categories:
+  - Prose
+hiddenFromHomePage: false
+hiddenFromSearch: false
+hiddenFromRelated: false
+hiddenFromFeed: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url:
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+A story like this can be understood in many ways. It can be a conflict between natural law and man-made law, or a conflict between a positivist position and a non-positivist position on the same legal case. Antigone, in jurisprudential terms, stands for natural law, and Creon stands for man-made law. It seems that the story simply discusses the importance of natural law (morality). It seems to be a confrontation between morality and law. But Antigone's story has a certain sublime value in it. The characters in the story have a very unusual emphasis on the definition of womanhood. <!--more-->It's like if I do something weak, if I give in, I become a woman. If I am strong, if I legislate, then I am a man, as Creon puts it: "Contemptible character, inferior to a woman" (73)! Creon considers a vile character to be an expression of a woman, and he himself, as a man, naturally spurns such behavior. And Ismene similarly says: "we must remember that we are women, who cannot fight against men" (11). Of course, for historical reasons, Sophocles lived in an Athenian slave-owning democracy, where the right to "democracy" was only open to a small number of adult males. But why was this so? Women's suffrage was not widely discussed and utilized until the 19th century. Something was at work here. Was it female sexuality? For Antigone, she represented precisely a certain beauty, a certain sublime beauty. as to whether women and female sexuality existed at all, that in itself is questionable.
+
+Ismene had counseled Antigone against the impulsive behavior that had cost her her life. But Antigone, in her own compulsive repetition, must do it, must do it compulsively. For if she agrees, she becomes one of the products of the ideological narrative. Only when she compulsively says "No!" she becomes a subject. But why? This compulsion is based on some pure contingency. For example, Kant's high categorical imperative compels her to obey morality, but this abstract morality is fundamentally untenable, and Antigone says that it doesn't matter if her husband dies or her children die. Because one can remarry and reproduce (87). But her brother as a unique signifier, so no. So let us consider who is more unique between the brother and the father and the son? Antigone's explanation is fundamentally so absurd that it is the most absurd grasp of pure chance. And it is precisely in this way that she becomes the opening of subjectivity in the world. For Lacan, Antigone's behavior is precisely a compulsion, a complete, insistent compulsion to fantasize. She believes that the big Other is absent. But is that really the case? Rather, her symptoms become the penetrating force that connects the three Registers.
+
+In Jacques Lacan's *Seminar VII*, he analyzes Antigone's constant assertion that “I chose death” is an embodiment of the death drive. If Antigone is defending her brother's right to be buried on the basis of “absolute disinterestedness”, what order of things obliges her to do so? It is in fact her own action. She does not act for the sake of others, but as the subject of her desire, she acts with complete autonomy. Otherwise, her resistance would have been violently placed as a vulgar disrespect for her true action. For she simply does not believe in a total, underpinning semiotic order, and to recognize the existence of the sublime is to deny Antigone's resistance. Lacan, too, does not deny the existence of Others, and in his Seminar XI he even says: “Man's desire is the desire of the Other”. However, Antigone's true action is precisely what Lacan means by traverse the fantasy, because she is ready to face the cruel fundamental fantasy.
+
+As for Creon, it is better to say that he is the one most controlled by the order. He did not set the law at all, but the law demanded that he set the law itself. Antigone, who always talks about Zeus, does not seem to recognize the presence of the gods, and Slavoj Žižek, in his book *Enjoy Your Symptom!*, even suggests one of Antigone's purest insistence: My brother is my brother, it is what it is. She never explains where it comes from. She insists on her brother's right to be buried in the name of a pure signifier of the law: It is Name. On page 45 of Antigone's original text, in the first paragraph, a long passage of hers confirms that she does not believe that any transcendent order gives Creon power at all. But Creon instead insists that order exists somewhere.
+
+Benevolence, morality, law. What foothold does it all have, exactly. To insist that it has some grounding is to establish authority for it. And Antigone, that child who inherited Oedipus' will, doesn't believe in authority. Everything she does is completely true.

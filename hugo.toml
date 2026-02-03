@@ -1,0 +1,323 @@
+baseURL = 'https://whilimior.github.io/'
+theme = ["hugo-embed-pdf-shortcode", "FixIt"]
+languageCode = 'en'
+defaultTheme = "auto"
+
+
+[params]
+  [params.header]
+    desktopMode = "sticky"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = "/svg/icon.svg"
+      pre = ""
+      post = ""
+      typeit = false
+  [params.app]
+    # 是否隐藏网站图标资源链接
+    noFavicon = false
+    # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件 #设置网站logo的 favicon
+    svgFavicon = "/svg/icon.svg"
+    # Safari 图标颜色
+    iconColor = "#5bbad5"
+    # Windows v8-10 磁贴颜色
+    tileColor = "#da532c"
+    [params.app.themeColor]
+      light = "#f8f8f8"
+      dark = "#252627"
+  [params.page]
+      # 评论系统
+      [params.page.comment]
+        enable = true
+        [params.page.comment.giscus]
+          enable = true
+          repo = "WhiliMior/whilimior.github.io"          # Giscus的data-repo字段
+          repoId = "R_kgDONFkYBg"                         # Giscus的data-repo-id字段
+          category = "Announcements"                      # Giscus的data-category字段
+          categoryId = "DIC_kwDONFkYBs4Cj1L1"             # Giscus的data-category-id字段
+          mapping = "pathname"                            # Giscus的data-mapping字段
+          strict = "0"                                    # Giscus的data-strict字段
+          term = ""
+          reactionsEnabled = "1"
+          emitMetadata = "0"
+          inputPosition = "top" # ["top", "bottom"]
+          lightTheme = "light"
+          darkTheme = "dark_dimmed"
+          lazyLoad = true
+  # 添加不蒜子计数
+  [params.busuanzi]
+    enable = true
+    # 是否开启全站独立访客数
+    site_uv = false
+    # 全站独立访客数前的图标或提示语
+    site_uv_pre = '<i class="fa fa-user"></i>' 
+    # 全站独立访客数后的图标或提示语
+    site_uv_post = ''
+    # 是否开启全站浏览量
+    site_pv = false
+    # 全站浏览量前的图标或提示语
+    site_pv_pre = '<i class="fa fa-eye"></i>'
+    # 全站浏览量后的图标或提示语
+    site_pv_post = ''
+    # 是否开启单页浏览量
+    page_pv = true
+    # 单页浏览量前的图标或提示语
+    page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
+    # 单页浏览量后的图标或提示语
+    page_pv_post = ''
+  # FixIt 0.2.17 | 新增 页面加载期间顶部的进度条
+  # 有关详细信息：https://github.com/CodeByZach/pace
+  [params.pace]
+    enable = true
+    # 所有可用颜色：
+    # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
+    color = "blue"
+    # 所有可用主题：
+    # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
+    # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
+    theme = "minimal"
+  # 阅读时顶部进度条
+  [params.readingProgress]
+    enable = true
+    # 可用值：["left", "right"]
+    start = "left"
+    # 可用值：["top", "bottom"]
+    position = "top"
+    reversed = false
+    light = "#A6A6A6"
+    dark = "#A6A6A6"
+    height = "4px"
+  # 面包屑导航
+  [params.breadcrumb]
+    enable = true
+    sticky = false
+    showHome = true
+    separator = "/"
+    capitalize = false
+
+
+[outputs]
+  home = ["html", "rss", "archives", "offline", "search"]
+  page = ["html"]
+
+# Multilingual
+# 多语言
+[languages]
+  [languages.en]
+    title = "Holzwege"
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = true
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "posts"
+        pre = '<i class="fa-solid fa-feather fa-fw me-1"></i>'
+        post = ""
+        name = "Articles"
+        url = "/posts/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 1
+        identifier = "tags"
+        parent = "posts"
+        pre = '<i class="fa-solid fa-tags"></i>'
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "categories"
+        parent = "posts"
+        pre = '<i class="fa-solid fa-folder-tree fa-fw me-1"></i>'
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
+        identifier = "screenplays"
+        pre = '<i class="fa-solid fa-film"></i>'
+        post = ""
+        name = "Screenplays"
+        url = "/screenplays/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 99
+        identifier = "about"
+        pre = '<i class="fa-solid fa-user"></i>'
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+    [languages.en.params]
+      [languages.en.params.search]
+        enable = true
+        type = "fuse"
+        contentLength = 10000
+        placeholder = "Search articles..."
+        maxResultLength = 20
+        snippetLength = 200
+        highlightTag = "em"
+        absoluteURL = false
+        threshold = 0.3
+        includeTitleScore = true
+        includeContentScore = true
+      [languages.en.params.search.algolia]
+        index = ""
+        appID = ""
+        searchKey = ""
+      [languages.en.params.footer]
+        enable = true
+        # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+        custom = ''
+        # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+        hugo = false
+        # LoveIt 新增 | 0.2.0 是否显示版权信息
+        copyright = true
+        # LoveIt 新增 | 0.2.0 是否显示作者
+        author = true
+        # 网站创立年份
+        since = 2024
+        # 许可协议信息 (支持 HTML 格式)
+        license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+        siteTime = false
+      [languages.en.params.home]
+        rss = 10
+      [languages.en.params.home.posts]
+          enable = true
+          # 主页每页显示文章数量
+          paginate = 8
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = ". . . for the same thing is for thinking and for being."
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.en.params.social]
+        GitHub = "WhiliMior"
+        Twitter = ""
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
+        Youtubelegacy = ""
+        Phone = ""
+        Email = ""
+        RSS = true
+
+  [languages.zh-cn]
+    title = "林中路"
+    weight = 2
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    hasCJKLanguage = true
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        weight = 1
+        identifier = "posts"
+        pre = '<i class="fa-solid fa-feather fa-fw me-1"></i>'
+        post = ""
+        name = "文章"
+        url = "/posts/"
+        title = "Posts"
+      [[languages.zh-cn.menu.main]]
+        weight = 1
+        identifier = "tags"
+        parent = "posts"
+        pre = '<i class="fa-solid fa-tags"></i>'
+        post = ""
+        name = "标签"
+        url = "/tags/"
+        title = "Tags"
+      [[languages.zh-cn.menu.main]]
+        weight = 2
+        identifier = "categories"
+        parent = "posts"
+        pre = '<i class="fa-solid fa-folder-tree fa-fw me-1"></i>'
+        post = ""
+        name = "分类"
+        url = "/categories/"
+        title = "Categories"
+      [[languages.zh-cn.menu.main]]
+        weight = 2
+        identifier = "screenplays"
+        pre = '<i class="fa-solid fa-film"></i>'
+        post = ""
+        name = "剧本"
+        url = "/screenplays/"
+        title = "Screenplays"
+      [[languages.zh-cn.menu.main]]
+        weight = 99
+        identifier = "about"
+        pre = '<i class="fa-solid fa-user"></i>'
+        post = ""
+        name = "关于"
+        url = "/about/"
+        title = "About"
+    [languages.zh-cn.params]
+      [languages.zh-cn.params.search]
+        enable = true
+        type = "fuse"
+        contentLength = 10000
+        placeholder = "搜索文章..."
+        maxResultLength = 20
+        snippetLength = 200
+        highlightTag = "em"
+        absoluteURL = false
+        threshold = 0.3
+        includeTitleScore = true
+        includeContentScore = true
+        [languages.zh-cn.params.search.algolia]
+          index = ""
+          appID = ""
+          searchKey = ""
+        [languages.zh-cn.params.footer]
+          enable = true
+          # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
+          custom = ''
+          # LoveIt 新增 | 0.2.0 是否显示 Hugo 和主题信息
+          hugo = false
+          # LoveIt 新增 | 0.2.0 是否显示版权信息
+          copyright = true
+          # LoveIt 新增 | 0.2.0 是否显示作者
+          author = true
+          # 网站创立年份
+          since = 2024
+          # ICP 备案信息，仅在中文显示
+          icp = '' 
+          # 许可协议信息 (支持 HTML 格式)
+          license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>' 
+          siteTime = false
+      [languages.zh-cn.params.home]
+        rss = 10
+        [languages.zh-cn.params.home.posts]
+            enable = true
+            # 主页每页显示文章数量
+            paginate = 8
+        [languages.zh-cn.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          title = ""
+          subtitle = ". . . 因为思维与存在是同一回事。"
+          typeit = true
+          social = true
+          disclaimer = ""
+      [languages.zh-cn.params.social]
+        GitHub = "WhiliMior"
+        Weibo = ""
+        Steam = ""
+        Zhihu = ""
+        Douban = ""
+        Devto = ""
+        Bilibili = ""
+        Email = ""
+        Phone = ""
+        RSS = true
