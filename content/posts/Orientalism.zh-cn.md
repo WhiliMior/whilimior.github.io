@@ -1,45 +1,14 @@
 ---
 title: 东方主义
-subtitle:
 date: 2023-12-11T17:57:16-04:00
 slug: 980bf52
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 东亚研究
-  - 现代性
+- 东亚研究
+- 现代性
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 Aeschylus. *The Persians*. Prentice Hall, 1970.
 

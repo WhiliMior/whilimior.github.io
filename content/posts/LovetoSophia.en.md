@@ -1,44 +1,13 @@
 ---
 title: Love to Sophia
-subtitle:
 date: 2023-10-02T17:28:11-04:00
 slug: 6750eef
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Philosophy
+- Philosophy
 categories:
-  - Prose
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Prose
 ---
+
 
 Curd, Patricia. *A Presocratics Reader: Selected Fragments and Testimonia*. Hackett Publishing, 2011.
 

@@ -1,45 +1,14 @@
 ---
 title: The Unfinished Dreams of Kon Satoshi
-subtitle:
 date: 2022-03-08T00:51:41-04:00
 slug: 3063866
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Film
-  - Psychoanalysis
+- Film
+- Psychoanalysis
 categories:
-  - Research Paper
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Research Paper
 ---
+
 
 Shannon Li
 

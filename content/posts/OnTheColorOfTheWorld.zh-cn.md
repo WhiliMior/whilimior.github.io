@@ -1,43 +1,11 @@
 ---
 title: 世界的色彩
-subtitle:
 date: 2023-04-24T01:54:15-04:00
 slug: 61ef13a
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
-tags:
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 > 该文章没有中文草稿，均使用翻译软件翻译到中文。有条件建议阅读英文。
 

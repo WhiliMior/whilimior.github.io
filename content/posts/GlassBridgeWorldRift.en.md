@@ -1,45 +1,14 @@
 ---
 title: Standing Over the Glass Bridge Above the World's Rift
-subtitle:
 date: 2023-11-23T16:51:20-04:00
 slug: baaad8c
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Psychoanalysis
-  - Film
+- Psychoanalysis
+- Film
 categories:
-  - Research Paper
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Research Paper
 ---
+
 
 Shannon Li
 

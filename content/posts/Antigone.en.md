@@ -1,45 +1,14 @@
 ---
 title: Antigone
-subtitle: Compulsion
 date: 2023-09-18T17:19:31-04:00
 slug: 9fbbf41
-draft: false
-author:
-  name: Shannon Li
-  link:
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Literature
-  - Psychoanalysis
+- Literature
+- Psychoanalysis
 categories:
-  - Prose
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Prose
 ---
+
 
 A story like this can be understood in many ways. It can be a conflict between natural law and man-made law, or a conflict between a positivist position and a non-positivist position on the same legal case. Antigone, in jurisprudential terms, stands for natural law, and Creon stands for man-made law. It seems that the story simply discusses the importance of natural law (morality). It seems to be a confrontation between morality and law. But Antigone's story has a certain sublime value in it. The characters in the story have a very unusual emphasis on the definition of womanhood. <!--more-->It's like if I do something weak, if I give in, I become a woman. If I am strong, if I legislate, then I am a man, as Creon puts it: "Contemptible character, inferior to a woman" (73)! Creon considers a vile character to be an expression of a woman, and he himself, as a man, naturally spurns such behavior. And Ismene similarly says: "we must remember that we are women, who cannot fight against men" (11). Of course, for historical reasons, Sophocles lived in an Athenian slave-owning democracy, where the right to "democracy" was only open to a small number of adult males. But why was this so? Women's suffrage was not widely discussed and utilized until the 19th century. Something was at work here. Was it female sexuality? For Antigone, she represented precisely a certain beauty, a certain sublime beauty. as to whether women and female sexuality existed at all, that in itself is questionable.
 

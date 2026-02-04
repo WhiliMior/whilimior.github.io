@@ -1,45 +1,14 @@
 ---
 title: 斐多篇
-subtitle: 记忆vs笔记
 date: 2023-11-06T17:40:10-04:00
 slug: 9185578
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 哲学
-  - 修辞学
+- 哲学
+- 修辞学
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 Plato. *Plato: Complete Works*. Hackett Publishing, 1997. *Phaedrus*. 
 

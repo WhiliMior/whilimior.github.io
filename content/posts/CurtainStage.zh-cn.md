@@ -1,47 +1,16 @@
 ---
 title: 帷幕之下，舞台之上
-subtitle:
 date: 2023-10-12T16:56:09-04:00
 slug: ba7583d
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 精神分析
-  - 符号学
-  - 强迫症
-  - 游戏
+- 精神分析
+- 符号学
+- 强迫症
+- 游戏
 categories:
-  - 研究论文
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 研究论文
 ---
+
 
 Shannon Li
 

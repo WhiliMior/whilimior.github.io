@@ -1,6 +1,6 @@
 baseURL = 'https://whilimior.github.io/'
 theme = ["hugo-embed-pdf-shortcode", "FixIt"]
-languageCode = 'en'
+languageCode = 'zh-cn'
 defaultTheme = "auto"
 
 
@@ -13,6 +13,12 @@ defaultTheme = "auto"
       pre = ""
       post = ""
       typeit = false
+  [params.author]
+    # 全局作者配置
+    name = "Shannon Li"
+    link = ""
+    email = "zl4061@nyu.edu"
+    avatar = "images/avatar.png"
   [params.app]
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -26,9 +32,16 @@ defaultTheme = "auto"
       light = "#f8f8f8"
       dark = "#252627"
   [params.page]
-      # 评论系统
-      [params.page.comment]
-        enable = true
+    [params.page.toc]
+      enable = true    # 文章目录
+      position = "right"
+      auto = false
+    [params.page.math]
+      enable = true    # 数学公式渲染
+    lightgallery = true     # 图片灯箱效果，放大预览图片
+    # 评论系统
+    [params.page.comment]
+      enable = true
         [params.page.comment.giscus]
           enable = true
           repo = "WhiliMior/whilimior.github.io"          # Giscus的data-repo字段

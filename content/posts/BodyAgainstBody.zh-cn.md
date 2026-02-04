@@ -1,44 +1,13 @@
 ---
 title: 神秘的女性主义，歇斯底里的写作
-subtitle:
 date: 2023-12-05T17:47:41-04:00
 slug: ca5514e
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 精神分析
+- 精神分析
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 Irigaray, Luce. *Sexes and Genealogies*. 1993. pg9-21.
 

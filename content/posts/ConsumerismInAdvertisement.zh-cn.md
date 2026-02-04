@@ -1,48 +1,17 @@
 ---
 title: 广告中的消费主义
-subtitle:
 date: 2021-12-13T23:38:31-04:00
 slug: 04a2b05
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 东亚研究
-  - 消费主义
-  - 符号学
-  - 资本主义
-  - 拜物教
+- 东亚研究
+- 消费主义
+- 符号学
+- 资本主义
+- 拜物教
 categories:
-  - 研究论文
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 研究论文
 ---
+
 
 Shannon Li
 

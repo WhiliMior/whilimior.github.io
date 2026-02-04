@@ -1,44 +1,13 @@
 ---
 title: Mysterious Feminism, A Hysterical Writing
-subtitle:
 date: 2023-12-05T17:47:41-04:00
 slug: 9ac6a2d
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Psychoanalysis
+- Psychoanalysis
 categories:
-  - Prose
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Prose
 ---
+
 
 Irigaray, Luce. *Sexes and Genealogies*. 1993. pg9-21.
 

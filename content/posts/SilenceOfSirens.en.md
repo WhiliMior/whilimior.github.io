@@ -1,49 +1,18 @@
 ---
 title: The Thing We Lost in Modernity
-subtitle:
 date: 2022-03-01T01:29:09-04:00
 slug: eeb197f
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Philosophy
-  - Psychoanalysis
-  - Literature
-  - Modernity
-  - Semiotics
-  - Capitalism
+- Philosophy
+- Psychoanalysis
+- Literature
+- Modernity
+- Semiotics
+- Capitalism
 categories:
-  - Research Paper
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Research Paper
 ---
+
 
 Shannon Li
 

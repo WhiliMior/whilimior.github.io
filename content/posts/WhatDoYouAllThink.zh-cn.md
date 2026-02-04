@@ -1,46 +1,15 @@
 ---
 title: 你们觉得怎么样？
-subtitle:
 date: 2023-09-12T17:01:29-04:00
 slug: c00f75e
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 哲学
-  - 修辞学
-  - 诠释学
+- 哲学
+- 修辞学
+- 诠释学
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 这是一段我在Emanuela Bianchi教授的Classical Literature & Philosophy课程中做的演讲。
 

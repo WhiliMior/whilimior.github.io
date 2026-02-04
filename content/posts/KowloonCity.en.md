@@ -1,46 +1,15 @@
 ---
 title: The Aesthetic Value and Construction of the Kowloon Walled City
-subtitle:
 date: 2021-11-29T00:19:34-04:00
 slug: 89debba
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Aesthetics
-  - Cyberpunk
-  - Architecture
+- Aesthetics
+- Cyberpunk
+- Architecture
 categories:
-  - Research Paper
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Research Paper
 ---
+
 
 Shannon Li
 

@@ -1,45 +1,14 @@
 ---
 title: 俄狄浦斯
-subtitle: 以父之名
 date: 2023-10-23T17:33:10-04:00
 slug: ac781ca
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 文学
-  - 精神分析
+- 文学
+- 精神分析
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 在Sophocles的故事之中，神总是一个极为重要的客体。他总是以一种不可违背的形象出现。在俄狄浦斯的故事中，无论俄狄浦斯和他的亲生父母如何努力，神的预言总是应验。这种巨大的负重以命运的形式在场。
 

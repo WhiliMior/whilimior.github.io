@@ -1,45 +1,14 @@
 ---
 title: 饱食终日 Proposal
-subtitle:
 date: 2022-03-01T01:29:09-04:00
 slug: 18510e0
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 现代性
-  - 电影
+- 现代性
+- 电影
 categories:
-  - 宣言
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 宣言
 ---
+
 
 > 该文章没有中文草稿，均使用翻译软件翻译到中文。有条件建议阅读英文。
 

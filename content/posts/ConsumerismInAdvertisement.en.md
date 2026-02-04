@@ -1,48 +1,17 @@
 ---
 title: Consumerism In Advertisement
-subtitle:
 date: 2021-12-13T23:38:30-04:00
 slug: 42936c4
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - East Asia Study
-  - Consumerism
-  - Semiotics
-  - Capitalism
-  - Fetishism
+- East Asia Study
+- Consumerism
+- Semiotics
+- Capitalism
+- Fetishism
 categories:
-  - Research Paper
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Research Paper
 ---
+
 
 Shannon Li
 

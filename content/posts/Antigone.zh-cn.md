@@ -1,45 +1,14 @@
 ---
 title: 安提戈涅
-subtitle: 强迫症
 date: 2023-09-18T17:19:31-04:00
 slug: 8c78c60
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 文学
-  - 精神分析
+- 文学
+- 精神分析
 categories:
-  - 随笔
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 随笔
 ---
+
 
 这样的一段故事可以从很多个方面去理解。可以是自然法和人为法之间的冲突，也可以是实证主义立场和非实证主义立场对同一个法律案件的冲突。Antigone，从法学的角度说，代表着自然法，Creon代表着人为法。看起来故事仅仅是讨论了自然法（道德）的重要性。似乎是道德和法律的对抗。但是Antigone的故事有着某种sublime value在里面。故事中，角色们对于女人这一定义有着非比寻常的重视。就好像倘若我做了什么懦弱的事情，倘若我屈服了，我便成为了女人。倘若我是强大的，我立法，则我便是男人。Creon这样说： “Contemptible character, inferior to a woman” (73)！ Creon认为一个卑劣的性格是一个女人的表现，而他本人作为一个男子汉，自然是唾弃此类行为的。而Ismene也同样说过: “we must remember that we are women, who cannot fight against men” （11）. 当然，由于历史原因，索福克勒斯所生活的历史时代属于雅典奴隶主民主制，“民主”的权利只对少部分成年男性开放。但是为什么是这样？女性选举权直到19世纪才被广泛讨论，广泛应用。这其中大致是有什么东西在作祟的。是女性性吗？对于Antigone来说，她恰恰代表着某种beauty，某种sublime beauty。至于女人和女性性到底是否存在，这本身就是值得质疑的。
 

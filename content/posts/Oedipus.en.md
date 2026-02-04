@@ -1,45 +1,14 @@
 ---
 title: Oedipus
-subtitle: In the Name of Father
 date: 2023-10-23T17:33:10-04:00
 slug: 7fcc04f
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Literature
-  - Psychoanalysis
+- Literature
+- Psychoanalysis
 categories:
-  - Prose
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Prose
 ---
+
 
 In Sophocles' stories, God is always an extremely important object. He always appears as an inviolable figure. In the story of Oedipus, no matter how hard Oedipus and his own parents try, the prophecies of the gods are always fulfilled. This great burden is present in the form of fate.
 Oedipus comes to Tiresias to explain who is the contamination, and because Tiresias points out that Oedipus is the contamination, the two begin to quarrel over who is the "blind" (370-410). This reminds me of Lacan's reference in a seminar of The Purloined Letter to three different kinds of people: "blind, seer and robber"; blind does not see, seer knows that blind does not see and pretends not to see, and robber sees what lies beneath the surface. Blind can't see, seer knows blind can't see and pretends he can't see, and robber sees what lies beneath the surface.<!--more-->

@@ -1,46 +1,15 @@
 ---
 title: 九龙城寨中的美学价值与结构
-subtitle:
 date: 2021-11-29T00:19:34-04:00
 slug: 7b9bf50
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 美学
-  - 赛博朋克
-  - 建筑
+- 美学
+- 赛博朋克
+- 建筑
 categories:
-  - 研究论文
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 研究论文
 ---
+
 
 > 该文章没有中文草稿，均使用翻译软件翻译到中文。有条件建议阅读英文。
 

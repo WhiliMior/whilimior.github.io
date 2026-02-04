@@ -1,45 +1,14 @@
 ---
 title: 享受被游戏惩罚
-subtitle:
 date: 2024-10-27T23:32:42-04:00
 slug: 7a48d76
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 游戏
-  - 精神分析
+- 游戏
+- 精神分析
 categories:
-  - 宣言
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 宣言
 ---
+
 
 Shannon Li
 

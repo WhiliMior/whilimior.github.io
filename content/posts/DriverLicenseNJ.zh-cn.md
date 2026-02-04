@@ -1,44 +1,13 @@
 ---
 title: 记中国驾照换新泽西（NJ）经历
-subtitle:
 date: 2024-10-26T15:29:13-04:00
 slug: 9774ebe
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  -
+- null
 categories:
-  - 美国生活
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary: 记录一次使用中国驾照免路考兑换NJ驾照的经历。
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 美国生活
 ---
+
 
 <!--more-->
 

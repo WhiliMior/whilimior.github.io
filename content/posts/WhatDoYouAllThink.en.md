@@ -1,46 +1,15 @@
 ---
 title: What Do You All Think?
-subtitle:
 date: 2023-09-12T17:01:29-04:00
 slug: 36d01d8
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - Philosophy
-  - Rhetoric
-  - Hermeneutics
+- Philosophy
+- Rhetoric
+- Hermeneutics
 categories:
-  - Prose
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- Prose
 ---
+
 
 This is a speech I made for the class Classical Literature & Philosophy with prof. Emanuela Bianchi.
 

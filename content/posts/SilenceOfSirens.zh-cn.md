@@ -1,49 +1,18 @@
 ---
 title: 我们于现代性中的所失
-subtitle:
 date: 2022-03-01T01:29:09-04:00
 slug: 206cec5
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 哲学
-  - 精神分析
-  - 文学
-  - 现代性
-  - 符号学
-  - 资本主义
+- 哲学
+- 精神分析
+- 文学
+- 现代性
+- 符号学
+- 资本主义
 categories:
-  - 研究论文
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 研究论文
 ---
+
 
 Shannon Li
 

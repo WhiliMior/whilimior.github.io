@@ -1,48 +1,17 @@
 ---
 title: 真实之触
-subtitle:
 date: 2023-03-05T16:34:21-04:00
 slug: 7cb7fff
-draft: false
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 哲学
-  - 精神分析
-  - 符号学
-  - 诠释学
-  - 游戏
+- 哲学
+- 精神分析
+- 符号学
+- 诠释学
+- 游戏
 categories:
-  - 研究论文
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 研究论文
 ---
+
 
 Shannon Li
 

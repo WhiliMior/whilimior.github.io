@@ -1,45 +1,15 @@
 ---
 title: 书籍清单
-subtitle:
 date: 2024-10-25T01:20:48-04:00
 slug: c8e0ceb
-author:
-  name: Shannon Li
-  link: 
-  email: zl4061@nyu.edu
-  avatar: "images/avatar.png"
-description:
-keywords:
-license:
-comment: true
-weight: 0
 tags:
-  - 哲学
-  - 精神分析
-  - 文学
+- 哲学
+- 精神分析
+- 文学
 categories:
-  - 笔记
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
-
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+- 笔记
 ---
+
 
 在学习过程中接触到的书目、文章、小说等。
 
