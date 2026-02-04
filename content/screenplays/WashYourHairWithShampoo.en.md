@@ -1,7 +1,7 @@
 ---
 title: Wash Your Hair with Shampoo
 date: 2021-12-05T18:32:19-04:00
-slug: b15123e
+slug: 62587d1
 ---
 
 

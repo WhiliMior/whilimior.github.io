@@ -1,7 +1,7 @@
 ---
 title: Beneath the Curtain, Above the Stage
 date: 2023-10-12T16:56:08-04:00
-slug: 6429889
+slug: ba7583d
 tags:
 - Psychoanalysis
 - Semiotics

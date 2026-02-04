@@ -1,7 +1,7 @@
 ---
 title: Antigone
 date: 2023-09-18T17:19:31-04:00
-slug: 9fbbf41
+slug: 8c78c60
 tags:
 - Literature
 - Psychoanalysis

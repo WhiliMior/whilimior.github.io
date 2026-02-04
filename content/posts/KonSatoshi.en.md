@@ -1,7 +1,7 @@
 ---
 title: The Unfinished Dreams of Kon Satoshi
 date: 2022-03-08T00:51:41-04:00
-slug: 3063866
+slug: 2448ff9
 tags:
 - Film
 - Psychoanalysis

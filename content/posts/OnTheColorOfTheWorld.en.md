@@ -1,7 +1,7 @@
 ---
 title: On The Color Of The World
 date: 2023-04-24T01:54:15-04:00
-slug: 0e4eb88
+slug: 61ef13a
 categories:
 - Prose
 ---

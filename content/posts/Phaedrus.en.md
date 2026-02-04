@@ -1,7 +1,7 @@
 ---
 title: Phaedrus
 date: 2023-11-06T17:40:10-04:00
-slug: a0f523b
+slug: 9185578
 tags:
 - Philosophy
 - Rhetoric

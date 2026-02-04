@@ -1,7 +1,7 @@
 ---
 title: Standing Over the Glass Bridge Above the World's Rift
 date: 2023-11-23T16:51:20-04:00
-slug: baaad8c
+slug: 03e4168
 tags:
 - Psychoanalysis
 - Film

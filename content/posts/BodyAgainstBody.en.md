@@ -1,7 +1,7 @@
 ---
 title: Mysterious Feminism, A Hysterical Writing
 date: 2023-12-05T17:47:41-04:00
-slug: 9ac6a2d
+slug: ca5514e
 tags:
 - Psychoanalysis
 categories:

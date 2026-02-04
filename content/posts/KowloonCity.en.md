@@ -1,7 +1,7 @@
 ---
 title: The Aesthetic Value and Construction of the Kowloon Walled City
 date: 2021-11-29T00:19:34-04:00
-slug: 89debba
+slug: 7b9bf50
 tags:
 - Aesthetics
 - Cyberpunk

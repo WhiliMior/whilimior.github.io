@@ -1,7 +1,7 @@
 ---
 title: What Do You All Think?
 date: 2023-09-12T17:01:29-04:00
-slug: 36d01d8
+slug: c00f75e
 tags:
 - Philosophy
 - Rhetoric

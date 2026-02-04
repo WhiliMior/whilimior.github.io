@@ -1,7 +1,7 @@
 ---
 title: Love to Sophia
 date: 2023-10-02T17:28:11-04:00
-slug: 6750eef
+slug: 5861c41
 tags:
 - Philosophy
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Sated Days Proposal
 date: 2022-03-01T01:29:09-04:00
-slug: ec2641d
+slug: 18510e0
 tags:
 - Modernity
 - Film

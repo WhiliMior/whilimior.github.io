@@ -1,7 +1,7 @@
 ---
 title: Consumerism In Advertisement
 date: 2021-12-13T23:38:30-04:00
-slug: 42936c4
+slug: 04a2b05
 tags:
 - East Asia Study
 - Consumerism

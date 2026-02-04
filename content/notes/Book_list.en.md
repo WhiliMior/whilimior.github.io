@@ -6,8 +6,6 @@ tags:
 - Philosophy
 - Psychoanalysis
 - Literature
-categories:
-- Note
 ---
 
 

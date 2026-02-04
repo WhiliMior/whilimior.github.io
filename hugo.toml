@@ -151,7 +151,15 @@ defaultTheme = "auto"
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 2
+        weight = 3
+        identifier = "notes"
+        pre = '<i class="fa-solid fa-note-sticky fa-fw me-1"></i>'
+        post = ""
+        name = "Notes"
+        url = "/notes/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 4
         identifier = "screenplays"
         pre = '<i class="fa-solid fa-film"></i>'
         post = ""
@@ -259,7 +267,15 @@ defaultTheme = "auto"
         url = "/categories/"
         title = "Categories"
       [[languages.zh-cn.menu.main]]
-        weight = 2
+        weight = 3
+        identifier = "notes"
+        pre = '<i class="fa-solid fa-note-sticky fa-fw me-1"></i>'
+        post = ""
+        name = "笔记"
+        url = "/notes/"
+        title = "Notes"
+      [[languages.zh-cn.menu.main]]
+        weight = 4
         identifier = "screenplays"
         pre = '<i class="fa-solid fa-film"></i>'
         post = ""

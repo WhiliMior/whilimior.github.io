@@ -1,7 +1,7 @@
 +++
 date = '2024-10-25T22:15:08-04:00'
 title = 'About'
-
+type = 'page'
 +++
 
 ## Holzwege

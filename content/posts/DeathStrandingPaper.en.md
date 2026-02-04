@@ -1,7 +1,7 @@
 ---
 title: The Real Touch
 date: 2023-03-05T16:34:21-04:00
-slug: cb05545
+slug: 7cb7fff
 tags:
 - Philosophy
 - Psychoanalysis

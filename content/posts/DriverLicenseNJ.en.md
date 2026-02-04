@@ -1,7 +1,7 @@
 ---
 title: Note on Getting a NJ Driver License with a Chinese one
 date: 2024-10-26T15:29:13-04:00
-slug: 9b865f6
+slug: 9774ebe
 tags:
 - null
 categories:

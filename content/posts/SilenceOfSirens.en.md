@@ -1,7 +1,7 @@
 ---
 title: The Thing We Lost in Modernity
 date: 2022-03-01T01:29:09-04:00
-slug: eeb197f
+slug: 206cec5
 tags:
 - Philosophy
 - Psychoanalysis

@@ -1,7 +1,7 @@
 ---
 title: World's Best Chef
 date: 2024-01-13T17:50:27-04:00
-slug: 7dd8770
+slug: ca5bc5d
 ---
 
 

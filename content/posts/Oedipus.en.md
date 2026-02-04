@@ -1,7 +1,7 @@
 ---
 title: Oedipus
 date: 2023-10-23T17:33:10-04:00
-slug: 7fcc04f
+slug: ac781ca
 tags:
 - Literature
 - Psychoanalysis

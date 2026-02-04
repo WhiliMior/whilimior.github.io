@@ -1,7 +1,7 @@
 ---
 title: Orientalism
 date: 2023-12-11T17:57:16-04:00
-slug: d10832d
+slug: 980bf52
 tags:
 - East Asia Study
 - Modernity

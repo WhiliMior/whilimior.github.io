@@ -6,8 +6,6 @@ tags:
 - 哲学
 - 精神分析
 - 文学
-categories:
-- 笔记
 ---
 
 
@@ -126,16 +124,3 @@ Said, Edward, 萨义德，《东方主义》（Orientalism），1978
 Žižek, 齐泽克，《幻想的瘟疫》（The Plague of Fantasies），2006
 
 Žižek, 齐泽克，《斜目而视》（Looking Awry），2006
-
-
-
-
-
-
-
-
-
-
-
-
-

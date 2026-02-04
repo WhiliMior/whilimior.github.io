@@ -1,7 +1,7 @@
 ---
 title: Enjoy Being Punished by Games
 date: 2024-10-27T23:32:42-04:00
-slug: ac4524a
+slug: 7a48d76
 tags:
 - Game
 - Psychoanalysis
