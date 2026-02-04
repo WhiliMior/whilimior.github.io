@@ -12,9 +12,11 @@ title = 'About'
 
 ```timeline {reverse=true}
 events:
-  - timestamp: 2024-10-24
-    content: Successfully lauched on [Github Page](https://github.com/WhiliMior/whilimior.github.io) with [hugo](https://gohugo.io/)
+  - timestamp: 2026-2-4
+    content: Full update，[hugo](https://gohugo.io/) >= 0.155.2，[FixIt](https://github.com/hugo-fixit/FixIt) >= v0.4.2
   - timestamp: 2024-10-30
     content: Added giscus comments
+  - timestamp: 2024-10-24
+    content: Successfully lauched on [Github Page](https://github.com/WhiliMior/whilimior.github.io) with [hugo](https://gohugo.io/)
 ```
 

@@ -11,9 +11,11 @@ title = '关于'
 
 ```timeline {reverse=true}
 events:
-  - timestamp: 2024-10-24
-    content: 本站使用[hugo](https://gohugo.io/)在[Github Page](https://github.com/WhiliMior/whilimior.github.io)上成功发布
+  - timestamp: 2026-2-4
+    content: 全面更新，[hugo](https://gohugo.io/) >= 0.155.2，[FixIt](https://github.com/hugo-fixit/FixIt) >= v0.4.2
   - timestamp: 2024-10-30
     content: 新增giscus评论
+  - timestamp: 2024-10-24
+    content: 本站使用[hugo](https://gohugo.io/)在[Github Page](https://github.com/WhiliMior/whilimior.github.io)上成功发布
 ```
 
