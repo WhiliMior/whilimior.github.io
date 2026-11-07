@@ -304,9 +304,9 @@ PDF 文件内部文字不会自动进入索引。Pagefind 资源在本站托管�
 首页通过 `cat-atlas-preview` 短代码展示专属预览卡片，文案分别位于中英文首页，样式在 `static/css/cat-atlas-preview.css`。
 首页项目入口仅在第一页展示。中英文项目页含返回对应博客和语言切换入口，正文分别加入 Pagefind 中英文索引。英文页面复用同一组媒体文件；共享脚本根据当前语言切换小猫回应和加载提示。
 
-目前游戏包体未发布，下载按钮会显示准备中说明，不触发文件下载。
-Release 上传并验证后，在 `static/cat-atlas/config.js` 中设置已验证的 `downloadUrl` / `downloadName` / `downloadSize`。中英文页面会自动切换为可下载按钮，并显示包体大小和解压运行提示；地址留空时继续显示准备中。
-游戏包体由独立的 `WhiliMior/CatAtlas` 仓库通过 GitHub Releases 托管，不在网站仓库创建游戏 Release，也不将包体写入网站 Git 历史。宣传片按点击加载。
+Windows 游戏包已发布：[下载 ZIP（115.92 MiB）](https://github.com/WhiliMior/CatAtlas-Releases/releases/download/cat-atlas-windows-20261107/CatAtlas-Windows.zip)。中英文页面共用该包体；开发仓库 `WhiliMior/CatAtlas` 保持私有。
+后续版本的 Release 上传并验证后，在 `static/cat-atlas/config.js` 中更新 `downloadUrl` / `downloadName` / `downloadSize`。中英文页面会自动切换为可下载按钮，并显示包体大小和解压运行提示；地址留空时继续显示准备中。
+游戏包体由独立的 `WhiliMior/CatAtlas-Releases` 仓库通过 GitHub Releases 托管，不在网站仓库创建游戏 Release，也不将包体写入网站 Git 历史。宣传片按点击加载。
 字体许可和地图来源说明保留在 `static/cat-atlas/assets/` 下。
 
 英文页面独立文案在 `static/cat-atlas/en/index.html`，两个版本的响应式补充样式位于 `static/cat-atlas/integration.css`。
@@ -317,8 +317,8 @@ Release 上传并验证后，在 `static/cat-atlas/config.js` 中设置已验证
 SHA-256：`ae54c340b146b0e0078e26b7c5d7245661515f9c0cb15843c7b485414b425848`。
 包体不放入 Git；它包含 EXE、PCK、两个 JSON 配置文件及许可证目录，应完整解压到同一目录。
 
-发布工具位于独立 CatAtlas 仓库：`bash scripts/publish-release.sh /path/CatAtlas-Windows.zip --verify-only`，可在本地验证 CRC、结构和 SHA-256。
-使用 `--publish` 会通过现有 GitHub CLI 身份在 `WhiliMior/CatAtlas` 创建 `cat-atlas-windows-20261107` 草稿 Release，上传 ZIP 和校验文件，回读校验后发布并检查公开下载地址。不会覆盖已有同名 Release。
+发布工具位于独立 CatAtlas-Releases 发行仓库：`bash scripts/publish-release.sh /path/CatAtlas-Windows.zip --verify-only`，可在本地验证 CRC、结构和 SHA-256。
+使用 `--publish` 会通过现有 GitHub CLI 身份在 `WhiliMior/CatAtlas-Releases` 创建 `cat-atlas-windows-20261107` 草稿 Release，上传 ZIP 和校验文件，回读校验后发布并检查公开下载地址。不会覆盖已有同名 Release。
 脚本需要 GitHub Releases 写权限，并允许访问 `api.github.com`、`uploads.github.com`、`github.com` 及其 Release 下载域名。
 只有实际发布并验证下载后，才填写网页的正式 `downloadUrl`。Windows 运行行为须在 Windows 上另行验证。
 
@@ -330,6 +330,6 @@ SHA-256：`ae54c340b146b0e0078e26b7c5d7245661515f9c0cb15843c7b485414b425848`。
 ### 上线前与发布
 
 项目页已补充分享元信息与 sitemap；键盘跳转、减少动画、视频失败回退及手机横屏关闭按钮均有支持。
-当前 `downloadUrl` 继续留空，只有 CatAtlas 独立仓库的 Release 正式上传并验证后才接入正式 ZIP 链接。
+当前 `downloadUrl` 已指向公开的 CatAtlas-Releases 附件，完整公开下载的字节数、SHA-256 与 ZIP CRC 均已验证。
 正式 Release 验证后填写 `downloadUrl`，运行 `npm run build`：Hugo 构建、静态下载状态渲染、Pagefind 索引依次执行。渲染步骤只更新 `public/`，同步生成两种语言的原生下载链接、文案和安装提示，保证无脚本环境可下载，也保证搜索索引包含正式发布状态。GitHub Actions 使用相同顺序。
-发布顺序：先在独立 CatAtlas 仓库发布并验证附件，再配置网站下载地址，完成构建后部署博客。脚本不会自动覆盖同名 Release。
+发布顺序：先在独立 CatAtlas-Releases 发行仓库发布并验证附件，再配置网站下载地址，完成构建后部署博客。脚本不会自动覆盖同名 Release。

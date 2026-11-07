@@ -6,11 +6,14 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const crypto = require('node:crypto');
 
 const output = path.resolve(process.argv[2] || 'public');
 const project = path.join(output, 'cat-atlas');
 const window = {};
-vm.runInNewContext(fs.readFileSync(path.join(project, 'config.js'), 'utf8'), { window }, { timeout: 1000 });
+const configSource = fs.readFileSync(path.join(project, 'config.js'), 'utf8');
+const configVersion = crypto.createHash('sha256').update(configSource).digest('hex').slice(0, 12);
+vm.runInNewContext(configSource, { window }, { timeout: 1000 });
 const config = window.CAT_ATLAS_CONFIG || {};
 const configuredUrl = typeof config.downloadUrl === 'string' ? config.downloadUrl.trim() : '';
 if (!configuredUrl) {
@@ -67,6 +70,8 @@ for (const [language, file] of [['zh', chinesePath], ['en', path.join(project, '
   html = html.replace(/(<span\b[^>]*\bdata-download-platform\b[^>]*>)[\s\S]*?(<\/span>)/i, (_, start, end) => { platforms++; return start + escape(platform) + end; });
   html = html.replace(/<p\b([^>]*\bid=["']download-instructions["'][^>]*)>[\s\S]*?<\/p>/i, (_, attributes) => { instructions++; return `<p${stripAttribute(attributes, 'hidden')}>${escape(copy[language].install)}</p>`; });
   if (heading !== 1 || platforms !== 1 || instructions !== 1) throw new Error(`Cat Atlas ${language} download structure changed.`);
+  // Do not let a cached preparation config disable newly published download links.
+  html = html.replace(/(<script\b[^>]*\bsrc=["'])([^"']*config\.js)(?:\?[^"']*)?(["'][^>]*>)/i, (_, start, source, end) => `${start}${source}?v=${configVersion}${end}`);
   fs.writeFileSync(file, html);
 }
 console.log('Cat Atlas: rendered published release links and installation guidance for both languages.');
