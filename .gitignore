@@ -13,3 +13,6 @@ Thumbs.db
 
 # Temporary files
 *.log
+
+# Search build dependencies
+node_modules/

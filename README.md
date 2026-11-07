@@ -6,7 +6,7 @@
 
 - 🌍 **多语言支持** - 英语和简体中文双语切换
 - 💬 **评论系统** - 基于 Giscus 的 GitHub Discussions 集成
-- 🔍 **搜索功能** - 使用 Fuse.js 实现即时搜索
+- 🔍 **搜索功能** - 使用 Pagefind 实现中英文全文搜索
 - 🌙 **主题切换** - 自动/亮色/暗黑模式
 - 📱 **响应式设计** - 完美适配桌面和移动设备
 - 📊 **访问统计** - 不蒜子页面浏览量统计
@@ -90,7 +90,6 @@ myblog/
 │   └── twine/           # Twine 交互内容
 ├── themes/               # 主题文件
 │   ├── FixIt/          # FixIt 主题 v0.4.2
-│   └── hugo-embed-pdf-shortcode/  # PDF 嵌入插件
 ├── layouts/              # 自定义布局覆盖
 │   ├── _default/       # 默认布局
 │   ├── partials/       # 部分模板
@@ -111,8 +110,8 @@ myblog/
 
 - **多语言支持** - 英语和简体中文双语
 - **评论系统** - Giscus 集成，基于 GitHub Discussions
-- **搜索功能** - Fuse.js 即时搜索，支持模糊匹配
-- **PDF 嵌入** - 使用 hugo-embed-pdf-shortcode 插件
+- **搜索功能** - Pagefind 中英文全文搜索，支持摘要高亮
+- **PDF 嵌入** - 使用自托管 PDF.js 完整阅读器
 - **主题切换** - 自动/亮色/暗黑三种模式
 - **响应式设计** - 移动优先的现代化 UI
 
@@ -178,7 +177,7 @@ hugo --gc --minify
 
 ```toml
 [outputs]
-  home = ["html", "rss", "archives", "offline", "search"]
+  home = ["html", "rss", "archives", "offline"]
   page = ["html"]
 ```
 
@@ -253,10 +252,10 @@ A: FixIt 0.4.2 已修复此问题，确保使用最新版本主题。
 A: 检查 Giscus 配置是否正确，确保仓库设置了 Discussions。
 
 **Q: 搜索功能不工作？**
-A: 确保在 `hugo.toml` 中启用了搜索输出格式。
+A: 确认已在 Hugo 构建后运行 `npm run search:index`，并通过 HTTP 服务访问构建目录。
 
 **Q: PDF 无法显示？**
-A: 确保安装了 hugo-embed-pdf-shortcode 插件。
+A: 确认 static/pdfjs/ 资源完整，并通过 HTTP 服务访问网站。
 
 ## 📚 更多资源
 
@@ -273,3 +272,28 @@ A: 确保安装了 hugo-embed-pdf-shortcode 插件。
 **网站**: https://whilimior.github.io/  
 **主题**: [FixIt](https://github.com/hugo-fixit/FixIt) v0.4.2  
 **Hugo**: v0.155.2+
+
+## PDF 阅读器
+
+PDF.js 6.5.438 完整阅读器自托管于 `static/pdfjs/`，保留上游 Apache-2.0 许可。
+来源：https://github.com/mozilla/pdf.js/releases/tag/v6.5.438
+
+沿用 `{{< embed-pdf url="/screenplays/example.pdf" >}}`；文件路径会进行 URL 编码。
+支持搜索、文字选择、连续滚动、缩放、缩略图及 PDF 自带目录；提供独立阅读、原文件及下载入口。
+搜索和复制要求 PDF 包含文本层，目录要求 PDF 包含书签。无需 API 密钥或外部 CDN。
+
+更新时从 Mozilla 官方 Release 下载完整 dist 包，替换 static/pdfjs/，保留 LICENSE 和字体/CMap/worker 等资源。
+删除上游示例 compressed.tracemonkey-pldi-09.pdf；使用实际站内 PDF 验证渲染、翻页、搜索、缩放和移动端布局。
+
+## 站内搜索（Pagefind）
+
+依赖 Node.js 22，使用锁文件安装：`npm ci`。
+每次 Hugo 构建后运行 `npm run search:index`，随后通过 HTTP 服务访问 `public/`。
+例如：`hugo --gc --minify && npm run search:index`，然后 `python -m http.server --directory public 8080`。
+`hugo server` 不会自动重建 Pagefind 索引，内容更新后需重新构建索引；验证搜索请使用上述静态构建流程。
+GitHub Actions 已在上传 Pages 产物前执行索引生成。
+
+搜索入口为 `/search/` 和 `/zh-cn/search/`，按页面语言检索。只索引公开文章正文及标题、标签、分类，排除导航、页脚、PDF 阅读器和隐藏/加密页面。
+PDF 文件内部文字不会自动进入索引。Pagefind 资源在本站托管，无需密钥或后台服务。
+
+中文长句和专有名词的分词可能有局限，建议用空格分隔关键词。普通查询支持词项扩展匹配，若需要精确短语可使用英文双引号。

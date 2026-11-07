@@ -1,10 +1,12 @@
 baseURL = 'https://whilimior.github.io/'
-theme = ["hugo-embed-pdf-shortcode", "FixIt"]
+theme = ["FixIt"]
 languageCode = 'zh-cn'
 defaultTheme = "auto"
 
 
 [params]
+  [params.search]
+    enable = false # Pagefind replaces the theme search
   [params.header]
     desktopMode = "sticky"
     mobileMode = "auto"
@@ -110,7 +112,7 @@ defaultTheme = "auto"
 
 
 [outputs]
-  home = ["html", "rss", "archives", "offline", "search"]
+  home = ["html", "rss", "archives", "offline"]
   page = ["html"]
 
 # Multilingual
@@ -175,22 +177,6 @@ defaultTheme = "auto"
         url = "/about/"
         title = ""
     [languages.en.params]
-      [languages.en.params.search]
-        enable = true
-        type = "fuse"
-        contentLength = 10000
-        placeholder = "Search articles..."
-        maxResultLength = 20
-        snippetLength = 200
-        highlightTag = "em"
-        absoluteURL = false
-        threshold = 0.3
-        includeTitleScore = true
-        includeContentScore = true
-      [languages.en.params.search.algolia]
-        index = ""
-        appID = ""
-        searchKey = ""
       [languages.en.params.footer]
         enable = true
         # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
@@ -291,23 +277,7 @@ defaultTheme = "auto"
         url = "/about/"
         title = "About"
     [languages.zh-cn.params]
-      [languages.zh-cn.params.search]
-        enable = true
-        type = "fuse"
-        contentLength = 10000
-        placeholder = "搜索文章..."
-        maxResultLength = 20
-        snippetLength = 200
-        highlightTag = "em"
-        absoluteURL = false
-        threshold = 0.3
-        includeTitleScore = true
-        includeContentScore = true
-        [languages.zh-cn.params.search.algolia]
-          index = ""
-          appID = ""
-          searchKey = ""
-        [languages.zh-cn.params.footer]
+      [languages.zh-cn.params.footer]
           enable = true
           # LoveIt 新增 | 0.2.0 自定义内容 (支持 HTML 格式)
           custom = ''

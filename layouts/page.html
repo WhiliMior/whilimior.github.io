@@ -1,0 +1,31 @@
+{{- define "title" -}}
+  {{- cond (.Param "capitalizeTitles") (title .Title) .Title -}}
+  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
+{{- end -}}
+
+{{- define "content" -}}
+  {{- $params := partial "function/params.html" -}}
+  <article class="page single special">
+    <div class="header">
+      {{- /* Title */ -}}
+      <h1 data-pagefind-meta="title" data-pagefind-weight="10" class="single-title animate__animated animate__pulse animate__faster">{{- cond (.Param "capitalizeTitles") (title .Title) .Title -}}</h1>
+
+      {{- /* Subtitle */ -}}
+      {{- with $params.subtitle -}}<p class="single-subtitle animate__animated animate__fadeIn">{{ . | $.RenderString }}</p>{{- end -}}
+    </div>
+
+    {{- /* Content */ -}}
+    {{- $content := dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+    <div {{ if not (or $params.hiddenFromSearch $params.password) }}data-pagefind-body{{ else }}data-pagefind-ignore="all"{{ end }} class="content" id="content">
+      {{- if not $params.password -}}
+        <span style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)" data-pagefind-weight="10">{{ .Title }} {{ delimit (.Params.tags | default slice) " " }} {{ delimit (.Params.categories | default slice) " " }}</span>{{- $content -}}
+      {{- end -}}
+    </div>
+
+    {{- /* Content Encryption */ -}}
+    {{- dict "Content" $content "Password" $params.password "Message" $params.message "Page" . | partial "plugin/fixit-encryptor.html" -}}
+
+    {{- /* Comment */ -}}
+    {{- partial "single/comment.html" . -}}
+  </article>
+{{- end -}}

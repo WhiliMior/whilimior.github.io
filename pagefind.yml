@@ -1,0 +1,4 @@
+site: public
+exclude_selectors:
+  - ".pdf-reader"
+  - "[data-pagefind-ignore]"

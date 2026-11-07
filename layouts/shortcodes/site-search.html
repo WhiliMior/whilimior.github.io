@@ -1,0 +1,6 @@
+<link href="{{ "pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
+<div id="site-search"></div>
+<noscript>{{ if eq .Page.Language.Lang "zh-cn" }}请启用 JavaScript 使用站内搜索。{{ else }}Enable JavaScript to search this site.{{ end }}</noscript>
+<script src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
+<script>window.addEventListener('DOMContentLoaded', () => {new PagefindUI({element:'#site-search',bundlePath:{{ "pagefind/" | relURL }},showSubResults:true,showImages:false});});</script>
+<style>#site-search{--pagefind-ui-primary:var(--link-color,#2671ad);--pagefind-ui-text:var(--global-font-color,#333);--pagefind-ui-background:var(--global-background-color,#fff);--pagefind-ui-border: #8886;--pagefind-ui-font:inherit;margin:2rem 0}</style>
