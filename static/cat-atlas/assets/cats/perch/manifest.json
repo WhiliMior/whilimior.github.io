@@ -1,0 +1,66 @@
+{
+  "source": "game/assets/art/mode_perch/",
+  "frameSize": [
+    320,
+    200
+  ],
+  "beatFps": 3,
+  "cycleBeats": 12,
+  "secondFrameBeats": [
+    7,
+    8
+  ],
+  "edgeOverlapPx": 2,
+  "hoverSpeedBonus": 0.65,
+  "clickBurstSeconds": 0.56,
+  "states": {
+    "express": {
+      "frames": [
+        "express/frame-01.webp",
+        "express/frame-02.webp"
+      ],
+      "contactPixels": [
+        [
+          95,
+          132
+        ],
+        [
+          95,
+          133
+        ]
+      ]
+    },
+    "scenic": {
+      "frames": [
+        "scenic/frame-01.webp",
+        "scenic/frame-02.webp"
+      ],
+      "contactPixels": [
+        [
+          95,
+          157
+        ],
+        [
+          95,
+          157
+        ]
+      ]
+    },
+    "residency": {
+      "frames": [
+        "residency/frame-01.webp",
+        "residency/frame-02.webp"
+      ],
+      "contactPixels": [
+        [
+          95,
+          124
+        ],
+        [
+          95,
+          124
+        ]
+      ]
+    }
+  }
+}

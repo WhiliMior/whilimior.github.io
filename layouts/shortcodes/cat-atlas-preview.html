@@ -1,0 +1,16 @@
+{{- $zh := eq .Page.Language.Lang "zh-cn" -}}
+<link rel="stylesheet" href="{{ "css/cat-atlas-preview.css" | relURL }}">
+<a class="cat-atlas-preview" href="{{ (cond $zh "cat-atlas/" "cat-atlas/en/") | relURL }}" aria-label="{{ if $zh }}探索猫咪环游手记 Cat Atlas{{ else }}Explore Cat Atlas — 猫咪环游手记{{ end }}">
+  <span class="cat-atlas-preview__copy">
+    <span class="cat-atlas-preview__eyebrow">{{ if $zh }}一封来自小猫的旅行邀请{{ else }}A little invitation to wander{{ end }}</span>
+    <span class="cat-atlas-preview__title">CAT<br>ATLAS<svg class="cat-atlas-preview__postmark" viewBox="0 0 48 40" fill="none" aria-hidden="true"><path d="M3 10C17-1 23 20 43 6M3 21C17 10 23 31 43 17M3 32C17 21 23 42 43 28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+    <span class="cat-atlas-preview__name">{{ if $zh }}猫咪环游手记{{ else }}A cat. A world of little journeys.{{ end }}</span>
+    <span class="cat-atlas-preview__description">{{ if $zh }}你忙你的，小猫陪你。{{ else }}Your day. A cat by your side.{{ end }}</span>
+    <span class="cat-atlas-preview__action">{{ if $zh }}翻开这段旅程{{ else }}Open the travel journal{{ end }}<span aria-hidden="true">↗</span></span>
+  </span>
+  <span class="cat-atlas-preview__art" aria-hidden="true">
+    <img class="cat-atlas-preview__globe" src="{{ "cat-atlas/assets/art/hero-collage.webp" | relURL }}" width="1120" height="1120" alt="" loading="lazy" decoding="async">
+    <img class="cat-atlas-preview__cat" src="{{ "cat-atlas/assets/cats/idle/frame-01.webp" | relURL }}" width="256" height="256" alt="" loading="lazy" decoding="async">
+    <span class="cat-atlas-preview__edition">A SMALL JOURNEY · A LITTLE COMPANY</span>
+  </span>
+</a>

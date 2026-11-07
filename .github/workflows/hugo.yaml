@@ -59,6 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --cleanDestinationDir \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: 设置 Node.js
@@ -67,9 +68,10 @@ jobs:
           node-version: '22'
           cache: npm
 
-      - name: 生成 Pagefind 搜索索引
+      - name: 渲染项目页并生成搜索索引
         run: |
           npm ci
+          npm run render:cat-atlas
           npm run search:index
 
       - name: 上传构建产物

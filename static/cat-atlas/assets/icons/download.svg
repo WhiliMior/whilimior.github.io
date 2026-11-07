@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="#2d503e"><defs>
+    <mask id="paw-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+      <path fill="white" d="M0 0h48v48H0z" />
+      <path d="m14.5 33.3 2.3-1.1-.5 1.5-1.6.5Zm14.1-6.1.8-.4.5 1.5-.8.3Z" fill="black" />
+    </mask>
+    <mask id="plane-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <path fill="white" d="M0 0h64v64H0z" />
+      <path d="m29.7 15 .9-.2-.2 5.5-.7.1ZM12 36.1l4.3-1.7.3.8-4.3 1.4Z" fill="black" />
+    </mask>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3.1v11.8m-4.5-4.2 4.5 4.5 4.6-4.5M4.1 16.2v4h15.8v-4" />
+    </g>
+  </svg>

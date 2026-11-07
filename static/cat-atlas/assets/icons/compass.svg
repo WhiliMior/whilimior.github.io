@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" color="#2d503e"><defs>
+    <mask id="paw-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+      <path fill="white" d="M0 0h48v48H0z" />
+      <path d="m14.5 33.3 2.3-1.1-.5 1.5-1.6.5Zm14.1-6.1.8-.4.5 1.5-.8.3Z" fill="black" />
+    </mask>
+    <mask id="plane-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <path fill="white" d="M0 0h64v64H0z" />
+      <path d="m29.7 15 .9-.2-.2 5.5-.7.1ZM12 36.1l4.3-1.7.3.8-4.3 1.4Z" fill="black" />
+    </mask>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+      <circle cx="50" cy="50" r="35" stroke-width="1.6" /><circle cx="50" cy="50" r="30.5" stroke-width=".9" />
+      <path stroke-width="1.5" d="M50 8v9m0 66v9M8 50h9m66 0h9M23 23l5 5m44 44 5 5M23 77l5-5m44-44 5-5" />
+    </g>
+    <path fill="currentColor" d="m50 13 5.6 30.7L87 50l-31.4 6.3L50 87l-5.6-30.7L13 50l31.4-6.3Z" />
+    <path fill="var(--paper,#f6ead2)" d="M50 18v32l-4.6-5.7Zm32 32H50l5.6-4.6ZM50 82V50l4.6 5.7ZM18 50h32l-5.6 4.6Z" />
+    <circle cx="50" cy="50" r="2.7" fill="currentColor" />
+  </svg>

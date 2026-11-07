@@ -1,1 +1,11 @@
-{"private":true,"scripts":{"search:index":"pagefind"},"devDependencies":{"pagefind":"1.4.0"}}
+{
+  "private": true,
+  "scripts": {
+    "search:index": "pagefind",
+    "render:cat-atlas": "node scripts/render-cat-atlas.cjs",
+    "build": "hugo --gc --minify --cleanDestinationDir && npm run render:cat-atlas && npm run search:index"
+  },
+  "devDependencies": {
+    "pagefind": "1.4.0"
+  }
+}

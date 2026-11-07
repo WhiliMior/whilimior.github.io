@@ -1,0 +1,83 @@
+/* Blog integration: keep the standalone artwork and typography isolated. */
+.site-header .blog-return { margin-left: auto; padding: .5rem 0 .5rem 1rem; font-size: 14px; white-space: nowrap; color: var(--green, #284b38); }
+.site-header .blog-return:hover { text-decoration: underline; text-underline-offset: 5px; }
+.blog-return:focus-visible, .footer-blog:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.site-footer .footer-blog { font-family: inherit; font-size: 14px; white-space: nowrap; }
+@media (max-width: 760px) { .site-header .blog-return { font-size: 12px; } }
+
+/* Keep language controls visible even where the original section nav is hidden. */
+.site-header .language-switcher {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 18px;
+  padding: 5px 9px;
+  border: 1px solid #76806570;
+  border-radius: 2px;
+  font: 12px/1.4 Georgia, serif;
+  color: #284b38;
+}
+.language-switcher:hover { background: #284b3810; }
+.language-switcher:focus-visible { outline: 2px solid #ad5138; outline-offset: 4px; }
+html:lang(en) .hero h1 { width: auto; max-width: 100%; font-size: clamp(34px, 3.4vw, 48px); letter-spacing: -.025em; }
+html:lang(en) .hero-description { letter-spacing: 0; line-height: 1.8; }
+html:lang(en) .game-name { white-space: normal; width: auto; letter-spacing: .13em; font-size: 17px; }
+html:lang(en) .feature-copy h3 { font-size: clamp(26px, 2.4vw, 34px); line-height: 1.25; letter-spacing: 0; }
+html:lang(en) .feature-copy p { letter-spacing: 0; line-height: 1.85; }
+html:lang(en) .heading-line { white-space: normal; }
+html:lang(en) .section-heading h2 { letter-spacing: 0; line-height: 1.25; }
+html:lang(en) .download-ticket h2,
+html:lang(en) .download-ticket h2 .title-line { white-space: normal; letter-spacing: 0; }
+html:lang(en) .bottom-download { max-width: 100%; box-sizing: border-box; font-size: clamp(17px, 2vw, 24px); letter-spacing: 0; }
+html:lang(en) .hero-download { font-size: 22px; letter-spacing: 0; }
+html:lang(en) .site-footer > span:nth-child(2) { font-size: 12px; }
+html:lang(en) .download-dialog h2 { font-size: clamp(24px, 5vw, 32px); letter-spacing: 0; }
+@media (max-width: 760px) {
+  .site-header .language-switcher { margin-left: 12px; padding-inline: 7px; }
+  html:lang(en) .hero h1 { font-size: clamp(30px, 7.8vw, 42px); }
+  html:lang(en) .hero-description { font-size: 16px; }
+  html:lang(en) .game-name { font-size: 13px; letter-spacing: .1em; }
+  html:lang(en) .section-heading h2 { font-size: 25px; max-width: 240px; }
+  html:lang(en) .feature-copy h3 { font-size: 28px; }
+  html:lang(en) .download-ticket h2 { font-size: 27px; line-height: 1.25; }
+  html:lang(en) .bottom-download { padding-inline: 13px; font-size: 18px; gap: 8px; white-space: normal; }
+  html:lang(en) .hero-download { font-size: 20px; }
+  html:lang(en) .site-footer { flex-wrap: wrap; }
+}
+@media (max-width: 370px) {
+  .site-header .blog-return { font-size: 11px; padding-left: 8px; }
+  .site-header .language-switcher { margin-left: 9px; font-size: 11px; padding: 4px 6px; }
+  html:lang(en) .wordmark { font-size: 22px; gap: 6px; }
+  html:lang(en) .wordmark img { width: 34px; height: 34px; }
+  html:lang(en) .hero h1 { font-size: 29px; }
+  html:lang(en) .bottom-download { font-size: 17px; }
+  html:lang(en) .section-heading h2 { font-size: 23px; }
+}
+
+/* Installation guidance appears only after a real download URL is configured. */
+.download-instructions { max-width: 35rem; margin: 15px auto 0; color: #47664e; font-size: 14px; line-height: 1.7; letter-spacing: 0; }
+@media (max-width: 760px) {
+  .download-instructions { font-size: 12px; line-height: 1.7; padding-inline: 4px; }
+}
+
+.platform [data-download-platform] { width: auto; height: auto; background: none; min-width: 0; }
+@media (max-width: 370px) { .platform { gap: 9px; font-size: 12px; } }
+
+/* Preserve the collage within the tablet layout instead of clipping the page. */
+@media (min-width: 520px) and (max-width: 760px) {
+  .hero .hero-art { width: 100%; margin-left: 0; }
+}
+/* A keyboard/touch close control remains reachable on landscape phones. */
+@media (max-height: 540px) {
+  .video-dialog { max-height: calc(100dvh - 24px); }
+  .video-dialog .dialog-close, .download-dialog .dialog-close {
+    position: fixed; top: 8px; right: 8px; z-index: 3;
+    background: #284b38; color: #fff5db; box-shadow: 0 2px 8px #0005;
+  }
+  .download-dialog { max-height: calc(100dvh - 24px); overflow-y: auto; }
+}
+
+.trailer-direct { margin: 16px auto 0; text-align: center; color: #47664e; font-size: 13px; line-height: 1.6; }
+.trailer-direct a { border-bottom: 1px solid #47664e70; padding-bottom: 3px; }
+.trailer-direct a:hover { color: #9b422d; border-color: currentColor; }

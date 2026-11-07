@@ -199,6 +199,7 @@ defaultTheme = "auto"
           # 主页每页显示文章数量
           paginate = 8
         [languages.en.params.home.profile]
+          onlyFirstPage = true
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
@@ -301,6 +302,7 @@ defaultTheme = "auto"
             # 主页每页显示文章数量
             paginate = 8
         [languages.zh-cn.params.home.profile]
+          onlyFirstPage = true
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"

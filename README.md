@@ -289,7 +289,7 @@ PDF.js 6.5.438 完整阅读器自托管于 `static/pdfjs/`，保留上游 Apache
 
 依赖 Node.js 22，使用锁文件安装：`npm ci`。
 每次 Hugo 构建后运行 `npm run search:index`，随后通过 HTTP 服务访问 `public/`。
-例如：`hugo --gc --minify && npm run search:index`，然后 `python -m http.server --directory public 8080`。
+例如：`npm run build`，然后 `python -m http.server --directory public 8080`。
 `hugo server` 不会自动重建 Pagefind 索引，内容更新后需重新构建索引；验证搜索请使用上述静态构建流程。
 GitHub Actions 已在上传 Pages 产物前执行索引生成。
 
@@ -297,3 +297,39 @@ GitHub Actions 已在上传 Pages 产物前执行索引生成。
 PDF 文件内部文字不会自动进入索引。Pagefind 资源在本站托管，无需密钥或后台服务。
 
 中文长句和专有名词的分词可能有局限，建议用空格分隔关键词。普通查询支持词项扩展匹配，若需要精确短语可使用英文双引号。
+
+## Cat Atlas 项目页
+
+`/cat-atlas/` 是中文独立静态宣传页，英文版位于 `/cat-atlas/en/`，源文件在 `static/cat-atlas/`。图片、字体、动画帧和宣传片均为本站资源，不依赖外部服务。
+首页通过 `cat-atlas-preview` 短代码展示专属预览卡片，文案分别位于中英文首页，样式在 `static/css/cat-atlas-preview.css`。
+首页项目入口仅在第一页展示。中英文项目页含返回对应博客和语言切换入口，正文分别加入 Pagefind 中英文索引。英文页面复用同一组媒体文件；共享脚本根据当前语言切换小猫回应和加载提示。
+
+目前游戏包体未发布，下载按钮会显示准备中说明，不触发文件下载。
+Release 上传并验证后，在 `static/cat-atlas/config.js` 中设置已验证的 `downloadUrl` / `downloadName` / `downloadSize`。中英文页面会自动切换为可下载按钮，并显示包体大小和解压运行提示；地址留空时继续显示准备中。
+游戏包体由独立的 `WhiliMior/CatAtlas` 仓库通过 GitHub Releases 托管，不在网站仓库创建游戏 Release，也不将包体写入网站 Git 历史。宣传片按点击加载。
+字体许可和地图来源说明保留在 `static/cat-atlas/assets/` 下。
+
+英文页面独立文案在 `static/cat-atlas/en/index.html`，两个版本的响应式补充样式位于 `static/cat-atlas/integration.css`。
+
+### Windows 包体发布
+
+已验证的上传包体：121,554,145 字节（115.92 MiB），Windows x64。
+SHA-256：`ae54c340b146b0e0078e26b7c5d7245661515f9c0cb15843c7b485414b425848`。
+包体不放入 Git；它包含 EXE、PCK、两个 JSON 配置文件及许可证目录，应完整解压到同一目录。
+
+发布工具位于独立 CatAtlas 仓库：`bash scripts/publish-release.sh /path/CatAtlas-Windows.zip --verify-only`，可在本地验证 CRC、结构和 SHA-256。
+使用 `--publish` 会通过现有 GitHub CLI 身份在 `WhiliMior/CatAtlas` 创建 `cat-atlas-windows-20261107` 草稿 Release，上传 ZIP 和校验文件，回读校验后发布并检查公开下载地址。不会覆盖已有同名 Release。
+脚本需要 GitHub Releases 写权限，并允许访问 `api.github.com`、`uploads.github.com`、`github.com` 及其 Release 下载域名。
+只有实际发布并验证下载后，才填写网页的正式 `downloadUrl`。Windows 运行行为须在 Windows 上另行验证。
+
+### 中英文宣传片
+
+`static/cat-atlas/config.js` 的 `trailerUrls` 可分别指定 `zh-CN` 和 `en` 视频路径，均相对于 `static/cat-atlas/` 解析。未指定的语言会继续使用 `trailerUrl`，避免替换期间出现空白播放器。
+收到新视频并验证文件后，再填写 `trailerUrls`；同时更新对应语言 HTML 的 `<noscript>` 视频链接。新版中英文宣传片已接入：各 45.013 秒，1080p / 30fps、H.264 / AAC，并启用 faststart。中文约 19.56 MiB、英文约 19.42 MiB，保留原始画面尺寸，按点击加载；无 JavaScript 时也可打开对应语言视频。旧共享视频已从站点资源中移除。
+
+### 上线前与发布
+
+项目页已补充分享元信息与 sitemap；键盘跳转、减少动画、视频失败回退及手机横屏关闭按钮均有支持。
+当前 `downloadUrl` 继续留空，只有 CatAtlas 独立仓库的 Release 正式上传并验证后才接入正式 ZIP 链接。
+正式 Release 验证后填写 `downloadUrl`，运行 `npm run build`：Hugo 构建、静态下载状态渲染、Pagefind 索引依次执行。渲染步骤只更新 `public/`，同步生成两种语言的原生下载链接、文案和安装提示，保证无脚本环境可下载，也保证搜索索引包含正式发布状态。GitHub Actions 使用相同顺序。
+发布顺序：先在独立 CatAtlas 仓库发布并验证附件，再配置网站下载地址，完成构建后部署博客。脚本不会自动覆盖同名 Release。

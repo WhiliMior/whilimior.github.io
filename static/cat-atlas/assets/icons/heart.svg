@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" color="#b45436"><defs>
+    <mask id="paw-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+      <path fill="white" d="M0 0h48v48H0z" />
+      <path d="m14.5 33.3 2.3-1.1-.5 1.5-1.6.5Zm14.1-6.1.8-.4.5 1.5-.8.3Z" fill="black" />
+    </mask>
+    <mask id="plane-ink" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <path fill="white" d="M0 0h64v64H0z" />
+      <path d="m29.7 15 .9-.2-.2 5.5-.7.1ZM12 36.1l4.3-1.7.3.8-4.3 1.4Z" fill="black" />
+    </mask>
+  </defs>
+  <path fill="currentColor" d="M16 27.4c-2.3-2.4-11.5-8.5-12-14.6C3.4 5.1 11.5 2.5 16 8c4.2-5.4 12.6-3.3 12 4.5-.5 6.3-9.9 12.6-12 14.9Z" /></svg>

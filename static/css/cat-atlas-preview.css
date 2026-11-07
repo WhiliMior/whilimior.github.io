@@ -1,0 +1,156 @@
+/* A self-contained postcard; the surrounding blog retains its own typography. */
+.single .content .cat-atlas-preview {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48% 52%;
+  isolation: isolate;
+  min-height: 336px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 12px 0 42px;
+  border: 1px solid #c7b995;
+  border-radius: 3px;
+  background: #f3e8cd url("../cat-atlas/assets/brand/paper.webp") center / 520px;
+  color: #264d3b;
+  text-decoration: none;
+  box-shadow: 0 8px 24px #312b1c12, inset 0 0 0 6px #fffbef60;
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+.cat-atlas-preview::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 12px;
+  border: 1px solid #87947366;
+  pointer-events: none;
+}
+.cat-atlas-preview__copy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 0 30px 32px;
+}
+.cat-atlas-preview__eyebrow {
+  margin-bottom: 21px;
+  color: #7c725c;
+  font: 10px/1.5 Georgia, "Noto Serif SC", serif;
+  letter-spacing: .13em;
+}
+.cat-atlas-preview__title {
+  position: relative;
+  display: block;
+  font: italic 700 clamp(44px, 5.4vw, 62px)/.85 Georgia, "Times New Roman", serif;
+  letter-spacing: -.045em;
+}
+.cat-atlas-preview__postmark {
+  position: absolute;
+  top: 0;
+  left: 115px;
+  width: 40px;
+  height: 36px;
+  color: #b5553d;
+  transform: rotate(-13deg);
+}
+.cat-atlas-preview__name {
+  margin-top: 13px;
+  color: #725c3d;
+  font: 13px/1.5 Georgia, "Noto Serif SC", serif;
+  letter-spacing: .2em;
+}
+.cat-atlas-preview__description {
+  margin-top: 20px;
+  font: 14px/1.6 Georgia, "Noto Serif SC", serif;
+}
+.cat-atlas-preview__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 17px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ad5138;
+  color: #9b422d;
+  font: 12px/1.7 Georgia, "Noto Serif SC", serif;
+  letter-spacing: .05em;
+}
+.cat-atlas-preview__action > span { font-size: 19px; line-height: 1; }
+.cat-atlas-preview__art { position: relative; display: block; min-width: 0; }
+.single .content .cat-atlas-preview img {
+  position: absolute;
+  display: block;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  pointer-events: none;
+}
+.single .content .cat-atlas-preview .cat-atlas-preview__globe {
+  width: 112%;
+  right: -4%;
+  top: 7%;
+  transform: rotate(4deg);
+}
+.single .content .cat-atlas-preview .cat-atlas-preview__cat {
+  width: 59%;
+  left: -13%;
+  bottom: 7%;
+  filter: drop-shadow(0 5px 3px #503d2120);
+}
+.cat-atlas-preview__edition {
+  position: absolute;
+  bottom: 21px;
+  right: 22px;
+  color: #85765c;
+  font: 7px/1.4 Georgia, serif;
+  letter-spacing: .15em;
+}
+.single .content .cat-atlas-preview:hover {
+  color: #264d3b;
+  border-color: #7d8c68;
+  box-shadow: 0 12px 28px #312b1c22, inset 0 0 0 6px #fffbef60;
+}
+.single .content .cat-atlas-preview:focus-visible {
+  outline: 3px solid #ad5138;
+  outline-offset: 5px;
+}
+[data-theme="dark"] .single .content .cat-atlas-preview {
+  border-color: #a59974;
+  box-shadow: 0 8px 28px #0005, inset 0 0 0 6px #fffbef60;
+}
+@media (max-width: 580px) {
+  .single .content .cat-atlas-preview {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    margin-bottom: 30px;
+  }
+  .cat-atlas-preview__copy { padding: 29px 28px 0; }
+  .cat-atlas-preview__eyebrow { margin-bottom: 18px; }
+  .cat-atlas-preview__title { font-size: 54px; }
+  .cat-atlas-preview__description { margin-top: 15px; }
+  .cat-atlas-preview__action { margin-top: 12px; }
+  .cat-atlas-preview__art { height: 270px; margin-top: -5px; }
+  .single .content .cat-atlas-preview .cat-atlas-preview__globe {
+    width: 76%;
+    max-width: 300px;
+    right: 0;
+    top: -10px;
+  }
+  .single .content .cat-atlas-preview .cat-atlas-preview__cat {
+    width: 47%;
+    max-width: 180px;
+    left: 1%;
+    bottom: 19px;
+  }
+  .cat-atlas-preview__edition { bottom: 17px; font-size: 6px; }
+}
+@media (max-width: 360px) {
+  .cat-atlas-preview__copy { padding-left: 25px; padding-right: 25px; }
+  .cat-atlas-preview__eyebrow { font-size: 9px; letter-spacing: .08em; }
+  .cat-atlas-preview__art { height: 235px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .single .content .cat-atlas-preview { transition: none; }
+}

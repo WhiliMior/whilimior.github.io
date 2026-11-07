@@ -1,0 +1,76 @@
+{
+  "source": "game/assets/art/cat_frames/",
+  "format": "lossless WebP, RGBA",
+  "frameSize": [
+    256,
+    256
+  ],
+  "states": {
+    "express": {
+      "fps": 4,
+      "frameDurationMs": 250.0,
+      "frames": [
+        "express/frame-01.webp",
+        "express/frame-02.webp",
+        "express/frame-03.webp",
+        "express/frame-04.webp"
+      ],
+      "loop": true
+    },
+    "scenic": {
+      "fps": 2.5,
+      "frameDurationMs": 400.0,
+      "frames": [
+        "scenic/frame-01.webp",
+        "scenic/frame-02.webp",
+        "scenic/frame-03.webp",
+        "scenic/frame-04.webp"
+      ],
+      "loop": true
+    },
+    "residency": {
+      "fps": 3,
+      "frameDurationMs": 333.3333333333333,
+      "frames": [
+        "residency/frame-01.webp",
+        "residency/frame-02.webp",
+        "residency/frame-03.webp",
+        "residency/frame-04.webp"
+      ],
+      "loop": true
+    },
+    "idle": {
+      "fps": 2,
+      "frameDurationMs": 500.0,
+      "frames": [
+        "idle/frame-01.webp",
+        "idle/frame-02.webp",
+        "idle/frame-03.webp",
+        "idle/frame-04.webp"
+      ],
+      "loop": true
+    },
+    "waiting": {
+      "fps": 2,
+      "frameDurationMs": 500.0,
+      "frames": [
+        "waiting/frame-01.webp",
+        "waiting/frame-02.webp",
+        "waiting/frame-03.webp",
+        "waiting/frame-04.webp"
+      ],
+      "loop": true
+    },
+    "paused": {
+      "fps": 1.5,
+      "frameDurationMs": 666.6666666666666,
+      "frames": [
+        "paused/frame-01.webp",
+        "paused/frame-02.webp",
+        "paused/frame-03.webp",
+        "paused/frame-04.webp"
+      ],
+      "loop": true
+    }
+  }
+}
