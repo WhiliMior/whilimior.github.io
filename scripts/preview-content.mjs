@@ -8,6 +8,8 @@ import { spawn, spawnSync } from 'node:child_process';
 const site = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const source = path.resolve(process.env.BLOG_CONTENT_DIR || path.join(site, '..', 'blog-content'));
 const processor = path.join(source, 'scripts', 'prepare-content.mjs');
+const port = process.env.HUGO_PREVIEW_PORT || '1313';
+if (!/^\d+$/.test(port) || Number(port) < 1024 || Number(port) > 65535) throw Error('Invalid preview port');
 const workspace = path.join(site, '.migration', 'preview');
 const current = path.join(workspace, 'content');
 await fs.access(processor).catch(() => { throw Error(`Private content repository not ready: ${source}`); });
@@ -26,7 +28,7 @@ async function prepare() {
   await fs.rename(next, current);
 }
 await prepare();
-const hugo = spawn('hugo', ['server', '--contentDir', current, '--buildDrafts', '--buildFuture', '--disableFastRender', '--ignoreCache', '--port', '1313', '--baseURL', 'http://localhost:1313/', '--navigateToChanged'], {cwd:site,stdio:'inherit'});
+const hugo = spawn('hugo', ['server', '--contentDir', current, '--buildDrafts', '--buildFuture', '--disableFastRender', '--ignoreCache', '--port', port, '--baseURL', `http://localhost:${port}/`, '--navigateToChanged'], {cwd:site,stdio:'inherit'});
 let timer;
 const changed = () => { clearTimeout(timer); timer = setTimeout(() => { prepare().catch(error => console.error(error.message)); }, 600); };
 const watchers = [watch(path.join(source,'content'), {recursive:true}, changed), watch(path.join(source,'branding'), {recursive:true}, changed)];
