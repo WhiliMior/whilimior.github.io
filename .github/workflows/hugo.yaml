@@ -32,19 +32,22 @@ jobs:
     env:
       HUGO_VERSION: 0.169.0
     steps:
-      - name: 安装Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-
-      - name: 安装Dart Sass
-        run: sudo snap install dart-sass
-
       - name: 检出
         uses: actions/checkout@v4
         with:
           submodules: recursive  # 递归检出子模块（主题）
           fetch-depth: 0        # 获取完整Git历史，用于显示最后更新时间
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: 安装并校验 Hugo Extended
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/install-hugo.mjs
 
       - name: 设置Pages
         id: pages
@@ -61,12 +64,6 @@ jobs:
             --minify \
             --cleanDestinationDir \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      - name: 设置 Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: npm
 
       - name: 渲染项目页并生成搜索索引
         run: |
