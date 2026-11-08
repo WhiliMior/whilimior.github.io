@@ -38,16 +38,16 @@ const stripAttribute = (attributes, name) => attributes.replace(new RegExp(`\\s+
 const attribute = (attributes, name, value) => stripAttribute(attributes, name) + ` ${name}="${escape(value)}"`;
 const copy = {
   zh: {
-    hero: '下载游戏', bottom: '下载 Windows 版', heading: '让小猫，从今天开始陪你。',
-    install: '下载后解压全部文件，再运行 CatAtlas.exe。请将 PCK、配置文件和许可证保留在同一文件夹中。',
+    hero: '下载游戏', bottom: '下载 Windows 版', heading: '让小猫从今天开始陪你。',
+    install: '下载后解压全部文件到同一文件夹，运行 CatAtlas.exe。',
   },
   en: {
     hero: 'Download game', bottom: 'Download for Windows', heading: 'Your little companion is ready.',
-    install: 'Extract all files, then run CatAtlas.exe. Keep the PCK, configuration files and licenses together in the same folder.',
+    install: 'Extract all files into the same folder, then run CatAtlas.exe.',
   },
 };
 const size = typeof config.downloadSize === 'string' ? config.downloadSize.trim() : '';
-const platform = ['Windows', 'ZIP', size].filter(Boolean).join(' · ');
+const platform = ['Windows', size].filter(Boolean).join(' · ');
 const name = typeof config.downloadName === 'string' && config.downloadName ? config.downloadName : 'CatAtlas-Windows.zip';
 
 for (const [language, file] of [['zh', chinesePath], ['en', path.join(project, 'en', 'index.html')]]) {

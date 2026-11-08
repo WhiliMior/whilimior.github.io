@@ -154,3 +154,22 @@
 @media (prefers-reduced-motion: reduce) {
   .single .content .cat-atlas-preview { transition: none; }
 }
+/* Bound the whole illustration by both dimensions of the cover. */
+.cat-atlas-preview__art{display:flex;align-items:center;justify-content:center;padding:22px 20px 40px;box-sizing:border-box;height:360px}
+.single .content .cat-atlas-preview .cat-atlas-preview__globe{position:relative;inset:auto;width:auto;height:100%;max-width:100%;object-fit:contain;transform:none}
+.single .content .cat-atlas-preview .cat-atlas-preview__cat{width:clamp(110px,18vw,190px);max-height:75%;object-fit:contain;left:0;bottom:26px}
+@media(max-width:580px){.cat-atlas-preview__art{height:290px;margin-top:0;padding:10px 15px 30px}.single .content .cat-atlas-preview .cat-atlas-preview__globe{height:100%;width:auto;max-width:80%}.single .content .cat-atlas-preview .cat-atlas-preview__cat{width:145px;left:8%;bottom:20px}}
+/* All cover props share one bounded canvas so wide covers never crop them. */
+.cat-atlas-preview__art{height:390px;padding:16px 20px 35px}
+.cat-atlas-preview__scene{position:relative;display:block;width:min(100%,339px);aspect-ratio:1;flex:none;isolation:isolate}
+.single .content .cat-atlas-preview .cat-atlas-preview__globe{position:absolute;left:20%;top:0;right:auto;bottom:auto;width:72%;height:90%;max-width:none;object-fit:contain;z-index:0}
+.single .content .cat-atlas-preview .cat-atlas-preview__cat{left:0;bottom:0;width:43%;height:auto;max-height:none;z-index:4}
+.cat-atlas-preview__card{position:absolute;display:block;width:31%;aspect-ratio:.81;overflow:hidden;filter:drop-shadow(1px 3px 2px #503d2130);z-index:1}
+.cat-atlas-preview__card--beijing{left:4%;top:12%;transform:rotate(-14deg)}
+.cat-atlas-preview__card--florence{right:0;top:49%;transform:rotate(13deg);z-index:2}
+.single .content .cat-atlas-preview .cat-atlas-preview__card img{left:-12%;top:0;width:290%;height:100%;max-width:none;object-fit:fill}
+.single .content .cat-atlas-preview .cat-atlas-preview__card--florence img{left:-178%}
+.single .content .cat-atlas-preview .cat-atlas-preview__stamp{right:0;top:4%;width:30%;height:auto;transform:rotate(12deg);z-index:3}
+.single .content .cat-atlas-preview .cat-atlas-preview__camera{right:13%;bottom:0;width:36%;height:auto;z-index:5}
+@media(max-width:580px){.cat-atlas-preview__art{height:320px;padding:8px 22px 30px;margin-top:0}.cat-atlas-preview__scene{width:min(100%,282px)}}
+@media(max-width:360px){.cat-atlas-preview__art{height:290px}.cat-atlas-preview__scene{width:min(100%,252px)}}

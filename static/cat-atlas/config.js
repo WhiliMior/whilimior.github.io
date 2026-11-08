@@ -2,7 +2,7 @@
 window.CAT_ATLAS_CONFIG = Object.freeze({
   downloadUrl: 'https://github.com/WhiliMior/CatAtlas-Releases/releases/download/cat-atlas-windows-20261107/CatAtlas-Windows.zip',
   downloadName: 'CatAtlas-Windows.zip',
-  downloadSize: '116 MiB',
+  downloadSize: '116 MB',
   trailerUrl: 'assets/video/cat-atlas-trailer-zh.mp4',
   trailerUrls: {
     'zh-CN': 'assets/video/cat-atlas-trailer-zh.mp4',

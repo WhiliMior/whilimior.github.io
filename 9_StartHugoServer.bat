@@ -25,7 +25,7 @@ echo.
 echo [2/2] 启动本地预览（包含草稿和未来日期文章）...
 echo 请先停止其他 Hugo 预览窗口，避免 1313 端口被占用。
 echo 预览地址：http://localhost:1313/zh-cn/
-echo 从相邻 blog-content 私有仓库读取正文，按文件夹水印配置生成预览。
+echo 从相邻 blog-content 私有仓库读取文章和 Cat Atlas，按文件夹配置生成预览。
 echo 按 Ctrl+C 停止服务器
 echo ========================================
 node scripts/preview-content.mjs

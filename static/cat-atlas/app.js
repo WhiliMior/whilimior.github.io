@@ -12,7 +12,7 @@
     downloadHero: 'Download game',
     downloadBottom: 'Download for Windows',
     downloadHeading: 'Your little companion is ready.',
-    install: 'Extract all files, then run CatAtlas.exe. Keep the PCK, configuration files and licenses together in the same folder.',
+    install: 'Extract all files into the same folder, then run CatAtlas.exe.',
     ready: 'All packed. Let’s set off together.',
     loading: 'Let’s go — the scenery will catch up.',
     messages: ['Purr… thanks for the pats!', 'Let’s go to the next stop together.', 'It’s lovely having you here.', 'Right here by your side.'],
@@ -20,8 +20,8 @@
     pet: '小猫',
     downloadHero: '下载游戏',
     downloadBottom: '下载 Windows 版',
-    downloadHeading: '让小猫，从今天开始陪你。',
-    install: '下载后解压全部文件，再运行 CatAtlas.exe。请将 PCK、配置文件和许可证保留在同一文件夹中。',
+    downloadHeading: '让小猫从今天开始陪你。',
+    install: '下载后解压全部文件到同一文件夹，运行 CatAtlas.exe。',
     ready: '行李收好，一起出发。',
     loading: '先出发，风景慢慢展开…',
     messages: ['喵，收到你的摸摸啦！', '下一站，也一起走吧~', '有你陪着，真好~', '今天也在你身边！'],
@@ -350,7 +350,7 @@
     if (heading) heading.textContent = copy.downloadHeading;
     const platform = document.querySelector('[data-download-platform]');
     const downloadSize = typeof config.downloadSize === 'string' ? config.downloadSize.trim() : '';
-    if (platform) platform.textContent = ['Windows', 'ZIP', downloadSize].filter(Boolean).join(' · ');
+    if (platform) platform.textContent = ['Windows', downloadSize].filter(Boolean).join(' · ');
     const instructions = document.getElementById('download-instructions');
     if (instructions) {
       instructions.textContent = copy.install;

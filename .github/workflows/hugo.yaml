@@ -52,6 +52,9 @@ jobs:
       - name: 验证图片发布策略检查器
         run: node --test scripts/verify-site.test.mjs
 
+      - name: 验证 Cat Atlas 发布检查器
+        run: node --test scripts/verify-catatlas.test.mjs
+
       - name: 设置Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -76,6 +79,9 @@ jobs:
 
       - name: 验证网页和图片资源
         run: node scripts/verify-site.mjs --public public --content content
+
+      - name: 验证 Cat Atlas 图片、动画、视频和下载
+        run: node scripts/verify-catatlas.mjs --public public
 
       - name: 上传构建产物
         # content/ is the publication copy prepared by private blog-content policies.
