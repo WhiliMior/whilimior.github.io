@@ -31,7 +31,12 @@ await prepare();
 const hugo = spawn('hugo', ['server', '--contentDir', current, '--buildDrafts', '--buildFuture', '--disableFastRender', '--ignoreCache', '--port', port, '--baseURL', `http://localhost:${port}/`, '--navigateToChanged'], {cwd:site,stdio:'inherit'});
 let timer;
 const changed = () => { clearTimeout(timer); timer = setTimeout(() => { prepare().catch(error => console.error(error.message)); }, 600); };
-const watchers = [watch(path.join(source,'content'), {recursive:true}, changed), watch(path.join(source,'branding'), {recursive:true}, changed)];
+const watchers = [watch(source, {recursive:true}, (_event, filename) => {
+  const relative = String(filename || '').replaceAll('\\','/');
+  if (!relative) return;
+  if (relative.split('/').some(part => part.startsWith('.') || part === 'node_modules')) return;
+  if (relative === 'content' || relative.startsWith('content/') || relative === 'branding' || relative.startsWith('branding/') || /\.(?:svg|png|jpe?g|webp|avif|yaml)$/i.test(relative) || relative === 'scripts/prepare-content.mjs') changed();
+})];
 hugo.on('error', error => { console.error(error.message); process.exitCode = 1; for (const watcher of watchers) watcher.close(); });
 hugo.on('exit', code => { clearTimeout(timer); for (const watcher of watchers) watcher.close(); process.exitCode = code || 0; });
 process.on('SIGINT', () => { clearTimeout(timer); for (const watcher of watchers) watcher.close(); hugo.kill('SIGINT'); });

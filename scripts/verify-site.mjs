@@ -180,6 +180,8 @@ if (options.manifest) {
   if (![1, 2].includes(manifest.schemaVersion) || !Array.isArray(manifest.images)) throw new Error('Unsupported processing manifest schema.');
   const originalHashes = new Set();
   const intentionalUnmarked = new Map();
+  const publicationHashes = new Map();
+  const publishedImagePaths = new Map();
   for (const image of manifest.originalImages || []) {
     if (!/^[a-f\d]{64}$/.test(image.sha256)) record('Processing manifest contains an invalid source image hash');
     else originalHashes.add(image.sha256);
@@ -195,6 +197,22 @@ if (options.manifest) {
       continue;
     }
     originalHashes.add(image.sourceSha256);
+    if (manifest.schemaVersion === 2 && Array.isArray(image.publicationPaths)) {
+      for (const candidate of image.publicationPaths) {
+        if (typeof candidate !== 'string' || candidate.includes('\\') || candidate.includes('\0') || candidate.startsWith('/') || candidate.split('/').includes('..')) {
+          record('Image has an unsafe publication path');
+          continue;
+        }
+        const full = path.resolve(root, candidate);
+        if (!within(root, full)) { record('Image publication path escapes the publish directory'); continue; }
+        const hashes = publicationHashes.get(full) || new Set();
+        hashes.add(image.outputSha256);
+        publicationHashes.set(full, hashes);
+        const paths = publishedImagePaths.get(image.outputSha256) || new Set();
+        paths.add(full);
+        publishedImagePaths.set(image.outputSha256, paths);
+      }
+    }
     if (unmarked) {
       if (!Array.isArray(image.publicationPaths) || !image.publicationPaths.length) record('Unmarked image has no explicit publication paths');
       else for (const candidate of image.publicationPaths) {
@@ -219,6 +237,8 @@ if (options.manifest) {
   }
   for (const file of files.filter(file => /\.(?:png|jpe?g|webp|gif|avif|tiff?|bmp)$/i.test(file))) {
     const hash = sha256(await fs.readFile(file));
+    if (publicationHashes.has(file) && !publicationHashes.get(file).has(hash)) record(`Published image differs from its processing manifest: ${relative(file)}`);
+    if (publishedImagePaths.has(hash) && !publishedImagePaths.get(hash).has(file)) record(`Prepared image appears at an undeclared publication path: ${relative(file)}`);
     if (originalHashes.has(hash) && !intentionalUnmarked.get(file)?.has(hash)) record(`Unprocessed source image in published output: ${relative(file)}`);
   }
 }

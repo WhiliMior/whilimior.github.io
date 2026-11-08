@@ -49,4 +49,17 @@ test('publication verification allows opted-out images only at their declared pa
   result=await check();
   assert.notEqual(result.status,0);
   assert.match(result.stderr,/preview content cannot be published/i);
+  manifest.preview=false;
+  manifest.originalImages=[];
+  manifest.images[0].sourceSha256=createHash('sha256').update('different private JPEG input').digest('hex');
+  assert.equal((await check()).status,0,'Re-encoded opt-out images are also allowed');
+  await fs.writeFile(leaked,bytes);
+  result=await check();
+  assert.notEqual(result.status,0);
+  assert.match(result.stderr,/undeclared publication path/);
+  await fs.unlink(leaked);
+  await fs.writeFile(path.join(output,published),'corrupted image');
+  result=await check();
+  assert.notEqual(result.status,0);
+  assert.match(result.stderr,/differs from its processing manifest/);
 });
