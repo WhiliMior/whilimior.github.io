@@ -118,7 +118,7 @@ if (!binaryStat.isFile() || binaryStat.isSymbolicLink()) throw safeError('Hugo e
 await fs.chmod(executable, 0o755);
 const check = spawnSync(executable, ['version'], { encoding: 'utf8', timeout: 15_000, maxBuffer: 1024 * 1024 });
 const escapedVersion = version.replaceAll('.', '\\.');
-if (check.status !== 0 || check.error || !new RegExp(`^hugo v${escapedVersion}(?:\\+|\\s)`).test(check.stdout) || !check.stdout.includes('+extended')) {
+if (check.status !== 0 || check.error || !new RegExp(`^hugo v${escapedVersion}(?:[-+]|\\s)`).test(check.stdout) || !check.stdout.includes('+extended')) {
   throw safeError('The installed binary is not the requested Hugo Extended version.');
 }
 await fs.unlink(archive);
