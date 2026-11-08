@@ -86,33 +86,37 @@ categories: []
 {{< image-compare
   before="assets/comparison-01-before.png"
   after="assets/comparison-01-after.png"
-  beforeLabel="修改前"
-  afterLabel="修改后"
+  beforeLabel="灰盒"
+  afterLabel="成品"
   position="90"
+
 >}}
 
 {{< image-compare
 before="assets/comparison-02-before.png"
 after="assets/comparison-02-after.png"
-beforeLabel="修改前"
-afterLabel="修改后"
+beforeLabel="灰盒"
+afterLabel="成品"
 position="90"
+
 >}}
 
 {{< image-compare
 before="assets/comparison-03-before.png"
 after="assets/comparison-03-after.png"
-beforeLabel="修改前"
-afterLabel="修改后"
+beforeLabel="灰盒"
+afterLabel="成品"
 position="90"
+
 >}}
 
 {{< image-compare
 before="assets/comparison-04-before.png"
 after="assets/comparison-04-after.png"
-beforeLabel="修改前"
-afterLabel="修改后"
+beforeLabel="灰盒"
+afterLabel="成品"
 position="90"
+
 >}}
 
 {{< /compare-grid >}}
