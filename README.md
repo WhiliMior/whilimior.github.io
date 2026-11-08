@@ -183,25 +183,50 @@ hugo --gc --minify
 
 ## 📝 添加新内容
 
+> 内容源已迁移到相邻的私有仓库 `../blog-content/content/`。本仓库 `content/` 是自动生成的公开发布副本，请勿在这里写文章或放原图。以下目录结构以私有仓库为准；新建正文可复制现有文章头部。
+
+私有仓库推送后会自动添加黑边、署名和公司 Logo，检查候选网站，再同步发布内容并触发本仓库构建。草稿和未来日期文章不会同步。运行 `9_StartHugoServer.bat` 可预览私有仓库中的修改（含草稿），图片仍会先生成水印版。
+
 ### 添加新文章
 
 ```bash
 # 英文文章
-hugo new content/posts/my-post.en.md
+hugo new content/posts/my-post/index.en.md
 
 # 中文文章
-hugo new content/posts/my-post.zh-cn.md
+hugo new content/posts/my-post/index.zh-cn.md
 ```
+
+每篇文章使用独立文件夹（Hugo leaf bundle），中英文正文与素材放在一起：
+
+```text
+content/posts/my-post/
+├── index.en.md
+├── index.zh-cn.md
+└── images/
+    └── cover.jpg
+```
+
+在正文中用 `![图片说明](images/cover.jpg)` 引用同目录素材，中英文可以共用图片。保留正文头部的 `slug`，以保持现有文章网址不变。`content/posts/_index.*.md` 是文章列表页，应保留在上一级目录。
 
 ### 添加新剧本
 
 ```bash
 # 英文剧本
-hugo new content/screenplays/my-screenplay.en.md
+hugo new content/screenplays/my-screenplay/index.en.md
 
 # 中文剧本
-hugo new content/screenplays/my-screenplay.zh-cn.md
+hugo new content/screenplays/my-screenplay/index.zh-cn.md
 ```
+
+### 添加新笔记
+
+```bash
+hugo new content/notes/my-note/index.en.md
+hugo new content/notes/my-note/index.zh-cn.md
+```
+
+剧本和笔记同样采用每篇一个文件夹的结构，素材放入该文件夹，通过相对路径引用；各栏目的 `_index.*.md` 保留在栏目根目录。
 
 ### 文章 Front Matter 示例
 

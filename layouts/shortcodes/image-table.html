@@ -1,0 +1,5 @@
+{{- $style := resources.Get "css/image-table.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<div class="image-table">
+  {{ .Inner | .Page.RenderString (dict "display" "block") }}
+</div>

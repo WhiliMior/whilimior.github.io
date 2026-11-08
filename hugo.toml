@@ -34,13 +34,13 @@ defaultTheme = "auto"
       light = "#f8f8f8"
       dark = "#252627"
   [params.page]
+    lightgallery = "force" # 所有正文图片启用灯箱，包括没有标题的图片
     [params.page.toc]
       enable = true    # 文章目录
       position = "right"
       auto = false
     [params.page.math]
       enable = true    # 数学公式渲染
-    lightgallery = true     # 图片灯箱效果，放大预览图片
     # 评论系统
     [params.page.comment]
       enable = true

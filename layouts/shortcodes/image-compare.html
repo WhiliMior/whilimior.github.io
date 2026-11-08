@@ -1,0 +1,24 @@
+{{- $before := .Get "before" -}}
+{{- $after := .Get "after" -}}
+{{- if not (and $before $after) -}}
+  {{- errorf "image-compare requires before and after: %s" .Position -}}
+{{- end -}}
+{{- with .Page.Resources.GetMatch $before -}}{{- $before = .RelPermalink -}}{{- end -}}
+{{- with .Page.Resources.GetMatch $after -}}{{- $after = .RelPermalink -}}{{- end -}}
+{{- $zh := eq .Page.Language.Lang "zh-cn" -}}
+{{- $beforeLabel := .Get "beforeLabel" | default (cond $zh "修改前" "Before") -}}
+{{- $afterLabel := .Get "afterLabel" | default (cond $zh "修改后" "After") -}}
+{{- /* Module scripts run once per URL, even with multiple comparisons or Hugo render caching. */ -}}
+  <script type="module" src="{{ "lib/img-comparison-slider/index.js" | relURL }}"></script>
+  <link rel="stylesheet" href="{{ "lib/img-comparison-slider/styles.css" | relURL }}">
+  {{- $style := resources.Get "css/image-compare.css" | fingerprint -}}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<figure class="image-compare">
+  <img-comparison-slider tabindex="0" value="{{ .Get "position" | default 50 }}" aria-label="{{ $beforeLabel }} / {{ $afterLabel }}">
+    <img slot="first" src="{{ $before }}" alt="{{ $beforeLabel }}" decoding="async">
+    <img slot="second" src="{{ $after }}" alt="{{ $afterLabel }}" decoding="async">
+  </img-comparison-slider>
+  <figcaption class="image-compare__labels"><span>{{ $beforeLabel }}</span><span>{{ $afterLabel }}</span></figcaption>
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+  <div class="image-compare__originals"><a href="{{ $before }}" target="_blank" rel="noopener">{{ $beforeLabel }} ↗</a> · <a href="{{ $after }}" target="_blank" rel="noopener">{{ $afterLabel }} ↗</a></div>
+</figure>

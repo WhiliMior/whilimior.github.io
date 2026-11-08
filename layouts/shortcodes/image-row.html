@@ -1,0 +1,5 @@
+{{- $style := resources.Get "css/image-row.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<div class="image-row">
+  {{ .Inner | safeHTML }}
+</div>

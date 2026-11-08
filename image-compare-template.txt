@@ -1,0 +1,16 @@
+将两张相同比例、相同视角的图片放入文章 assets 文件夹，然后将下面内容复制到 Markdown 正文：
+
+{{< image-compare
+  before="assets/before.png"
+  after="assets/after.png"
+  beforeLabel="修改前"
+  afterLabel="修改后"
+  position="50"
+  caption="拖动分隔线，比较修改前后的效果。"
+>}}
+
+position 是初始分隔位置（0–100），默认 50。
+beforeLabel、afterLabel、position、caption 都可以省略。
+鼠标或触摸拖动分隔线；键盘 Tab 聚焦后可用方向键调整。
+原图链接可单独打开图片，不会干扰滑块拖动。
+组件按页面加载一次，使用随网站发布的 8.0.7 版本资源，不依赖第三方 CDN。

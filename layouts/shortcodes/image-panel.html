@@ -1,0 +1,5 @@
+{{- $style := resources.Get "css/image-panel.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<div class="image-panel">
+  {{ .Inner | safeHTML }}
+</div>
