@@ -177,18 +177,40 @@ if (options.manifest) {
   if (within(root, manifestFile)) record('Private processing manifest must not be inside the publish directory');
   const manifest = JSON.parse(await fs.readFile(manifestFile, 'utf8'));
   if (manifest.preview) throw new Error('Local preview content cannot be published.');
-  if (manifest.schemaVersion !== 1 || !Array.isArray(manifest.images)) throw new Error('Unsupported processing manifest schema.');
+  if (![1, 2].includes(manifest.schemaVersion) || !Array.isArray(manifest.images)) throw new Error('Unsupported processing manifest schema.');
   const originalHashes = new Set();
+  const intentionalUnmarked = new Map();
   for (const image of manifest.originalImages || []) {
     if (!/^[a-f\d]{64}$/.test(image.sha256)) record('Processing manifest contains an invalid source image hash');
     else originalHashes.add(image.sha256);
   }
   for (const image of manifest.images) {
-    if (!/^[a-f\d]{64}$/.test(image.sourceSha256) || !/^[a-f\d]{64}$/.test(image.outputSha256) || image.sourceSha256 === image.outputSha256) {
+    const unmarked = manifest.schemaVersion === 2 && image.mode === 'unwatermarked';
+    if (manifest.schemaVersion === 2 && !['watermarked', 'unwatermarked'].includes(image.mode)) {
+      record('Processing manifest contains an invalid image mode');
+      continue;
+    }
+    if (!/^[a-f\d]{64}$/.test(image.sourceSha256) || !/^[a-f\d]{64}$/.test(image.outputSha256) || (!unmarked && image.sourceSha256 === image.outputSha256)) {
       record('Processing manifest contains an invalid or unchanged image');
       continue;
     }
     originalHashes.add(image.sourceSha256);
+    if (unmarked) {
+      if (!Array.isArray(image.publicationPaths) || !image.publicationPaths.length) record('Unmarked image has no explicit publication paths');
+      else for (const candidate of image.publicationPaths) {
+        if (typeof candidate !== 'string' || candidate.includes('\\') || candidate.includes('\0') || candidate.startsWith('/') || candidate.split('/').includes('..')) {
+          record('Unmarked image has an unsafe publication path');
+          continue;
+        }
+        const full = path.resolve(root, candidate);
+        if (!within(root, full)) record('Unmarked image publication path escapes the publish directory');
+        else {
+          const allowed = intentionalUnmarked.get(full) || new Set();
+          allowed.add(image.outputSha256);
+          intentionalUnmarked.set(full, allowed);
+        }
+      }
+    }
     if (contentRoot) {
       const prepared = path.resolve(contentRoot, image.path);
       if (!within(contentRoot, prepared) || !await exists(prepared)) record('Processing manifest references a missing prepared image');
@@ -196,7 +218,8 @@ if (options.manifest) {
     }
   }
   for (const file of files.filter(file => /\.(?:png|jpe?g|webp|gif|avif|tiff?|bmp)$/i.test(file))) {
-    if (originalHashes.has(sha256(await fs.readFile(file)))) record(`Unprocessed source image in published output: ${relative(file)}`);
+    const hash = sha256(await fs.readFile(file));
+    if (originalHashes.has(hash) && !intentionalUnmarked.get(file)?.has(hash)) record(`Unprocessed source image in published output: ${relative(file)}`);
   }
 }
 

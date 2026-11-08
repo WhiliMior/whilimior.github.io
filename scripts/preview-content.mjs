@@ -1,4 +1,4 @@
-// Local preview always prepares a watermarked copy; never point Hugo at originals.
+// Local preview prepares a copy using each image folder's watermark.yaml policy.
 import fs from 'node:fs/promises';
 import { watch } from 'node:fs';
 import path from 'node:path';
