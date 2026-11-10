@@ -1,0 +1,3 @@
+/* Page-only diagram layout, matching the article image galleries. */
+.content .diagram-container { max-width: 100%; overflow-x: auto; margin: 1.6rem 0 .6rem; padding: .75rem; border: 1px solid #8883; border-radius: 5px; }
+.content .diagram-container svg { min-width: 570px; }

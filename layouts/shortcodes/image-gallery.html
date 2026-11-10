@@ -1,0 +1,9 @@
+{{- $layout := .Get "layout" | default "two" -}}
+{{- if not (in (slice "single" "two" "three") $layout) -}}
+  {{- errorf "image-gallery layout must be single, two, or three (%s)" .Position -}}
+{{- end -}}
+{{- $style := resources.Get "css/image-gallery.css" | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<div class="image-gallery image-gallery--{{ $layout }}">
+  {{ .Inner | safeHTML }}
+</div>
