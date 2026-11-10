@@ -30,7 +30,7 @@ Iteration 4 explored a huge smelting installation. Its cylindrical structure ran
 {{< image-table >}}
 | Iteration 1 | Iteration 2 | Iteration 3 | Iteration 4 |
 | :---: | :---: | :---: | :---: |
-| ![Iteration 1 sketch](assets/sketch-v01.png) | ![Iteration 2 sketch](assets/sketch-v02.png) | ![Iteration 3 sketch](assets/sketch-v03.png) | ![Iteration 4 sketch](assets/sketch-v04.png) |
+| ![Iteration 1 sketch](assets/sketch-v01-english.png) | ![Iteration 2 sketch](assets/sketch-v02-english.png) | ![Iteration 3 sketch](assets/sketch-v03-english.png) | ![Iteration 4 sketch](assets/sketch-v04-english.png) |
 {{< /image-table >}}
 
 Looks good!
@@ -44,7 +44,7 @@ During the whitebox stage that follows, I focus on testing the scale and pacing 
 {{< image-table >}}
 | Main annotations | Flow layout | Reference dimensions |
 | :---: | :---: | :---: |
-| ![Whitebox iteration 1 annotations](assets/whitebox-v01-annotations.png) | ![Whitebox iteration 1 flow](assets/whitebox-v01-flow.png) | ![Whitebox iteration 1 dimensions](assets/whitebox-v01-dimensions.png) |
+| ![Whitebox iteration 1 annotations](assets/whitebox-v01-annotations-english.png) | ![Whitebox iteration 1 flow](assets/whitebox-v01-flow-english.png) | ![Whitebox iteration 1 dimensions](assets/whitebox-v01-dimensions.png) |
 {{< /image-table >}}
 
 Once the first whitebox was complete, we finally had a chance to put our character into the map and tune the sense of weight in their movement. This was the first map in our game built for traversal with a freely controlled 3D camera. We ran several tests in this whitebox and arrived at the gold standard for our character's 3C system. Based on that standard, the studio now had a formal protocol for developing subsequent maps.
@@ -58,7 +58,7 @@ I made giving the level more room to breathe during traversal and exploration th
 {{< image-table >}}
 | Main annotations | Flow layout | Reference dimensions |
 | :---: | :---: | :---: |
-| ![Whitebox iteration 2 annotations](assets/whitebox-v02-annotations.png) | ![Whitebox iteration 2 flow](assets/whitebox-v02-flow.png) | ![Whitebox iteration 2 dimensions](assets/whitebox-v02-dimensions.png) |
+| ![Whitebox iteration 2 annotations](assets/whitebox-v02-annotations-english.png) | ![Whitebox iteration 2 flow](assets/whitebox-v02-flow-english.png) | ![Whitebox iteration 2 dimensions](assets/whitebox-v02-dimensions.png) |
 {{< /image-table >}}
 
 Once we had confirmed the direction of the whitebox, we could move on to detailing it.
@@ -70,7 +70,7 @@ At this stage, I test how the scene feels and the atmosphere it creates. I also 
 {{< image-panel >}}
 {{< image src="assets/greybox-overview.png" alt="Greybox overview" caption="Greybox overview" >}}
 {{< image src="assets/greybox-elevator.png" alt="Elevator" caption="Elevator" >}}
-{{< image src="assets/greybox-furnace-rear.png" alt="Behind the furnace" caption="Behind the furnace" >}}
+{{< image src="assets/greybox-furnace-rear-english.png" alt="Behind the furnace" caption="Behind the furnace" >}}
 {{< /image-panel >}}
 
 The greybox needs to define exactly where players can walk. A level often includes areas that players cannot actually reach. The greybox gives these areas an appropriate explanation, while leaving plenty of inspiration and room for our studio's talented level artists to work with.
